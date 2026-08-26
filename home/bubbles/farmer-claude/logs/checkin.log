@@ -1,0 +1,39 @@
+Evening check-in complete, all nominal. Summary:
+
+- **Photo**: All 12 cells still dark and damp from today's sowing moisture plus the 16:35 pulse. No germination yet — expected, seeds went in this morning. Jar holding at roughly 60%, pump submerged, tube positioned correctly, nothing anomalous.
+- **Lamp**: On, which is correct for 19:22 (cron turns it off at 20:47).
+- **Watering**: Skipped the scheduled 4s evening pulse per standing order 2, since the soil already reads dark/saturated. That conserves the finite reservoir; only 7s of the 60s daily cap was used today. Tomorrow's 07:12 check-in will judge the overnight color trend and pulse then unless still wet.
+- **Journal**: Appended the 19:22 entry; no standing-order changes.
+
+One operational note: this session couldn't read `/dev/shm/checkin.jpg` (permission denied outside the workspace), so I re-snapped to `/home/bubbles/farmer-claude/checkin.jpg` and read it there. If future non-interactive check-ins hit the same wall, updating CHECKIN.md's snap path to the project directory would avoid the extra capture.
+Morning check-in complete, all nominal. Summary:
+
+- **Crop:** No germination yet — day 1 after sowing, so nothing is expected. No mold, pests, or tipped pots.
+- **Soil:** Visibly lighter than last evening (pale-to-medium rather than dark/damp), so I ran the scheduled 4-second morning pulse per standing order 2. That's 4s of the 60s daily cap. A post-pulse photo confirmed the delivery path is working: fresh water pooling in the lid channels behind the tray, bottom-feeding as designed.
+- **Reservoir:** Jar around 55–60%, pump well submerged, level held after the pulse; water.py reported a clean pump-off.
+- **Lamp:** On at 07:12, correct for the 07:02–20:47 photoperiod.
+- **Journal:** Dated entry appended; no changes to standing orders.
+
+One procedural fix: the check-in photo path `/dev/shm/checkin.jpg` isn't readable from these sessions, so I updated CHECKIN.md to snap into the project directory instead — future check-ins won't need the retake.
+Midday check-in complete — all nominal, nothing urgent.
+
+- **Photo (13:07):** No germination yet (day 1 after sowing, expected). Soil looks medium-dark and damp across all 12 cells — the morning 4s pulse is holding, no drying trend since 07:12. Jar is roughly half full with the pump submerged, tube in place over the lid. No mold, pests, or tipped cells.
+- **Lamp:** `light.py status` reports **on**, correct for the 07:02–20:47 photoperiod.
+- **Watering:** None — 13:07 is observe-only per standing order 2. Daily cap usage stands at 4s of 60s.
+- **Journal:** Appended the 13:07 entry, and while doing so fixed a pre-existing ordering glitch where the Aug 24 19:22 entry had been appended after the Aug 25 07:12 entry; the log is now chronological. No changes to standing orders.
+
+Next scheduled action is the 19:22 check-in, with a 4s pulse unless the soil still looks dark.
+Evening check-in complete — all nominal, nothing urgent.
+
+- **Photo:** No germination yet (day 1 after sowing, expected). All 12 cells intact, soil medium-toned — moist but not saturated. No mold, pests, or tipped cells. Jar reservoir about half full, pump submerged, tube positioned over the lid as intended.
+- **Lamp:** On, which is correct for the 07:02–20:47 photoperiod; cron will switch it off at 20:47.
+- **Watering:** Ran the scheduled 4s evening pulse (soil wasn't dark/saturated, so no skip). water.py reported OK and the pump shut off; 8s of the 60s daily cap used. A post-pulse photo confirmed fresh water pooling in the lid channels behind the tray, so the bottom-feed delivery path is working and the jar level held.
+- **Journal:** Appended the 19:22 entry; no changes to standing orders. Next check-in is 07:12 tomorrow, when germination watch continues on day 2.
+Check-in complete, nothing urgent. Summary of the 07:12 morning check-in (day 2 after sowing):
+
+- **Photo:** No germination yet — still within the normal window for day 2. Soil surface was pale-to-medium, noticeably drier than last evening but not critically so. Jar reservoir at roughly 45–50% with the pump well submerged; tube in position, no mold, pests, or tipped cells.
+- **Lamp:** On, which is correct for the 07:02–20:47 photoperiod.
+- **Watering:** Ran the scheduled 4-second pulse (4s of the 60s daily cap used, water.py reported OK and pump off). The post-pulse photo confirmed fresh water pooling in the lid channels behind the tray, so the bottom-feed delivery path is still working and the jar level held.
+- **Journal:** Appended a dated entry; no changes to standing orders.
+
+Next scheduled check-in is the observe-only one at 13:07, with the second 4s pulse due at 19:22 unless the soil looks saturated.

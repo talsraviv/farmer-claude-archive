@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./tools/water.py:*)",
+      "Bash(./tools/light.py:*)",
+      "Bash(./tools/snap:*)",
+      "Bash(tools/water.py:*)",
+      "Bash(tools/light.py:*)",
+      "Bash(tools/snap:*)",
+      "Bash(.venv/bin/kasa:*)",
+      "Bash(crontab:*)",
+      "Bash(rpicam-still:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(date:*)",
+      "Bash(claude:*)",
+      "Read(//home/bubbles/farmer-claude/**)",
+      "Edit(//home/bubbles/farmer-claude/**)"
+    ]
+  },
+  "model": "claude-fable-5"
+}

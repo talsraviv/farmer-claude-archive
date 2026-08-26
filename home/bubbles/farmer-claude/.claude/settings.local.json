@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo \"lamp: $\\(./tools/light.py status\\)\")"
+    ]
+  }
+}
