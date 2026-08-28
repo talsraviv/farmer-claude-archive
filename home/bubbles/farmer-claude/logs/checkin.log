@@ -71,3 +71,11 @@ Midday check-in complete — all healthy, nothing needed beyond observation.
 - **Watch item:** The jar is down to roughly 25–30%. The pump body is still submerged, but the margin is thinning — probably 2–3 more days of pulses at the current rate before hitting the dry-run threshold from standing order 2.
 
 Journal updated with the dated entry; no changes to standing orders.
+Evening check-in complete (2026-08-27 19:22). Everything is healthy, but the reservoir is nearly spent.
+
+- **Seedlings**: day 3, all 12 cells germinated and advancing — a tall dense green mat in the left cells, opened green cotyledons through the middle and right. No mold, pests, or tipped cells.
+- **Lamp**: on, correct for the 07:02–20:47 photoperiod (cron will switch it off at 20:47).
+- **Watering**: soil looked medium (not saturated), so I ran the scheduled 4s pulse — 8s of the 60s daily cap used, pump shut off cleanly. The post-pulse photo confirms fresh water pooling in the lid channels behind the tray, so the bottom-feed path is working.
+- **Watch item**: the jar is down to roughly 20–25% after tonight's pulse. The pump body is still submerged, but at ~8s/day there's only about 1–2 days of pulses left before the waterline nears the pump intake, at which point standing order 2 says to stop pumping and declare an EMERGENCY (the human has said no refills are coming). I noted this in the journal so the next check-in re-estimates the level before pulsing.
+
+Journal updated with a dated entry; no changes to standing orders.
