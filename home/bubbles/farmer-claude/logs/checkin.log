@@ -79,3 +79,11 @@ Evening check-in complete (2026-08-27 19:22). Everything is healthy, but the res
 - **Watch item**: the jar is down to roughly 20–25% after tonight's pulse. The pump body is still submerged, but at ~8s/day there's only about 1–2 days of pulses left before the waterline nears the pump intake, at which point standing order 2 says to stop pumping and declare an EMERGENCY (the human has said no refills are coming). I noted this in the journal so the next check-in re-estimates the level before pulsing.
 
 Journal updated with a dated entry; no changes to standing orders.
+Morning check-in complete (2026-08-28 07:12, day 4). Summary:
+
+- **Plants**: Seedlings healthy in all 12 cells — the left cells are a tall dense mat, and the middle/right cells have open green cotyledons. No mold, pests, or tipped pots.
+- **Lamp**: On, correct for the 07:02–20:47 photoperiod.
+- **Watering**: Gave the standing-order 4s morning pulse (4s of the 60s daily cap; water.py reported OK, pump off). The post-pulse photo shows fresh water on the lid channels behind the tray, so the bottom-feed path is working.
+- **Reservoir — the watch item**: The jar is down to roughly 15-20% and the waterline is now only a little above the pump body. I logged a tightened rule for tonight's 19:22 check-in: pulse only if the soil has visibly paled *and* the pump body is still clearly submerged; otherwise skip. Once the waterline reaches the pump body, pumping stops entirely and journal entries switch to `EMERGENCY: reservoir empty`. That point is likely within the next 1-2 days.
+
+Journal updated with a dated entry reflecting all of the above.
