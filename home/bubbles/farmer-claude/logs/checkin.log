@@ -93,3 +93,12 @@ Midday check-in complete (2026-08-28 13:07, observe-only) — everything nominal
 - **Soil:** Surfaces mostly dark and damp, so the morning 4-second pulse is holding; no drying trend since 07:12.
 - **Lamp:** On, which is correct for the 07:02–20:47 photoperiod.
 - **Reservoir (the watch item):** The jar is down to roughly 15%, with the waterline just above the pump body — the thinnest margin yet, maybe one day of pulses remaining. Per the plan set this morning, tonight's 19:22 pulse happens only if the soil has visibly paled and the waterline still clearly covers the pump; otherwise it gets skipped to stretch the water. Once the waterline reaches the pump body, pumping stops and entries switch to `EMERGENCY: reservoir empty`.
+Evening check-in complete — all healthy, pulse skipped to conserve the near-empty reservoir.
+
+- **Seedlings:** vigorous in all 12 cells on day 4 — dense green mats in the left cells, open green cotyledons across the middle and right. No mold, pests, or tipped pots.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Soil:** surfaces still dark/damp — the morning 4-second pulse held all day, no paling since midday.
+- **Watering:** skipped, per the decision rule set this morning (only pulse if soil had visibly paled). Daily usage stays at 4s of the 60s cap.
+- **Reservoir:** the real story — the jar is down to roughly 10–15%, with the waterline barely above the pump body. There's at most one more short pulse left before hitting the dry-run threshold. Tomorrow morning's check-in will pulse 3–4s only if the soil has visibly paled and the pump is still clearly covered; otherwise it's the end of the water, and entries switch to `EMERGENCY: reservoir empty` per standing order 2.
+
+Journal updated with the entry and the outlook for tomorrow.

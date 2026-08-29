@@ -102,3 +102,11 @@
 - Jar ~15%: waterline just above the pump body — thinnest margin yet. Roughly one day of pulses left at most.
 - Lamp: on — correct for photoperiod. Watering: none (observe-only); 4s of 60s daily cap used.
 - Plan for 19:22 per the 07:12 note: pulse ONLY if soil has visibly paled AND the waterline still clearly covers the pump body; otherwise skip and stretch the remaining water. Switch to EMERGENCY: reservoir empty the moment the waterline reaches the pump body.
+
+### 2026-08-28 19:22 — evening check-in (cron)
+- Photo: seedlings vigorous in all 12 cells (day 4) — dense green mats left, open green cotyledons middle/right, leggy but healthy. No mold/pests/tipping. Tube in place.
+- Soil: cell surfaces still dark/damp — morning pulse holding, no visible paling since midday.
+- Jar ~10-15%: waterline barely above the pump body — thinnest margin yet, at/near the stop threshold.
+- Lamp: on — correct for photoperiod.
+- Watering: SKIPPED per the decision rule (soil not paled; also conserving the last water). 4s of 60s daily cap used.
+- Outlook: at most one more short pulse is defensible before the waterline reaches the pump body. Tomorrow 07:12: pulse (3-4s max) ONLY if soil has visibly paled AND the pump body is still clearly covered; otherwise skip and, once the waterline reaches the pump body, stop pumping and begin EMERGENCY: reservoir empty entries per standing order 2.
