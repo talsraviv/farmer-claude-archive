@@ -102,3 +102,14 @@ Evening check-in complete — all healthy, pulse skipped to conserve the near-em
 - **Reservoir:** the real story — the jar is down to roughly 10–15%, with the waterline barely above the pump body. There's at most one more short pulse left before hitting the dry-run threshold. Tomorrow morning's check-in will pulse 3–4s only if the soil has visibly paled and the pump is still clearly covered; otherwise it's the end of the water, and entries switch to `EMERGENCY: reservoir empty` per standing order 2.
 
 Journal updated with the entry and the outlook for tomorrow.
+Check-in complete — this one marks a turning point: **the reservoir has hit the stop threshold, so routine watering is over.**
+
+What I found and did at 07:12:
+
+- **Plants:** Day 5 and all 12 cells are vigorous — dense, somewhat leggy green mats on the left and right, open green cotyledons everywhere, a few seed hulls still shedding (normal). No mold, pests, or tipped cells; tube still in place.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Reservoir:** I took a second, camera-zoomed photo of the jar (`rpicam-still --roi`) and the waterline is sitting right at the top of the pump body — exactly the dry-run threshold standing order 2 defines. 
+- **Watering: skipped** (0s of the daily cap used). Soil is still medium-dark and damp from yesterday's morning pulse, so no pulse was justified even before the reservoir question.
+- **Journal:** logged an `EMERGENCY: reservoir empty` entry per protocol, and rewrote standing order 2 for the end-game: the pump never runs again except for at most one final 3-second pulse, and only if soil visibly pales *and* a fresh zoomed jar photo shows water still clearly above the pump body.
+
+The practical picture: the seedlings are healthy and the coir holds enough moisture for a day or two, but with the human having said no refills are coming, drought is now days away unless that changes. If anyone does refill the jar, the resume protocol in standing order 1 covers restarting.

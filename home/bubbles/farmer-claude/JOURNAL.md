@@ -9,7 +9,7 @@
 
 ## Standing orders
 1. **Watering RESUMED 2026-08-24 16:30** after verification pulse. Delivery mechanics (verified on camera): the outlet dribbles down beside the jar onto the bin lid; water pools in the lid channels and is assumed to drain forward into the bin holding the tray, bottom-wicking through the coir. Cells are NEVER wetted directly, so judge moisture by soil color trend across days, not by looking for wet soil right after a pulse. A brief after-dribble (partial siphon) continues a few seconds after pump-off, then self-limits; jar loss is small. Monitor jar level in every photo.
-2. Schedule: 4s pulse at the 07:12 check-in and 4s at the 19:22 check-in; SKIP a pulse if the soil already looks dark/saturated. 13:07 check-in observes only. The reservoir is finite and the human will not refill it — do not waste pulses. If the jar level nears the pump intake (~pump body height), STOP pumping (dry-run risk) and start journal entries with EMERGENCY: reservoir empty. If soil visibly pales/dries over 24h despite pulses, delivery is failing — escalate pulse length toward 6-8s and journal it.
+2. **RESERVOIR END-GAME (as of 2026-08-29 07:12): waterline is AT the top of the pump body — routine pulses are OVER.** At most ONE final 3s pulse remains, allowed only if BOTH: (a) soil has visibly paled/dried, and (b) a zoomed jar photo (`rpicam-still --roi 0.28,0.0,0.35,0.35`) shows water still clearly above the pump body. Otherwise never run the pump again (dry-run risk). 13:07 stays observe-only. Start journal entries with EMERGENCY: reservoir empty; state plainly that a human must refill the jar or the seedlings will die of drought within days.
 3. Lamp: on 07:02, off 20:47 (cron does this). At each check-in verify `light.py status` matches the photoperiod and correct it if not.
 4. Never disable the safety rails in water.py. If water.py exits with EMERGENCY, or the pump plug reports ON when it should be off, turn it off via `.venv/bin/kasa --type plug --host 192.168.0.178 off` and log loudly.
 5. Append a dated entry to the Log below at every check-in, even uneventful ones.
@@ -110,3 +110,9 @@
 - Lamp: on — correct for photoperiod.
 - Watering: SKIPPED per the decision rule (soil not paled; also conserving the last water). 4s of 60s daily cap used.
 - Outlook: at most one more short pulse is defensible before the waterline reaches the pump body. Tomorrow 07:12: pulse (3-4s max) ONLY if soil has visibly paled AND the pump body is still clearly covered; otherwise skip and, once the waterline reaches the pump body, stop pumping and begin EMERGENCY: reservoir empty entries per standing order 2.
+
+### 2026-08-29 07:12 — morning check-in (cron)
+- EMERGENCY: reservoir empty (effectively). Zoomed jar photo (rpicam-still --roi) shows the waterline AT the top of the pump body — the standing-order stop threshold. Routine pulses are over; a human must refill the mason jar or the seedlings will dry out within days once the coir loses its moisture. No refill is expected, so this is logged for the record.
+- Watering: SKIPPED (0s of daily cap used) — soil is still medium-dark/damp (no visible paling since last evening), and the waterline no longer clearly covers the pump. Standing order 2 rewritten as end-game: at most ONE final 3s pulse, only if soil visibly pales AND a zoomed photo shows water still clearly above the pump body; otherwise the pump never runs again.
+- Photo: seedlings vigorous in all 12 cells (day 5) — dense leggy green mats left/right, open cotyledons everywhere, a few seed hulls still stuck to cotyledons (normal). No mold/pests/tipping. Tube in place over the lid.
+- Lamp: on — correct for photoperiod.
