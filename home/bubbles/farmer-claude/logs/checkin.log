@@ -127,3 +127,13 @@ Evening check-in complete (2026-08-29 19:22). Summary:
 - **Soil: still holding moisture.** Cell surfaces are mostly dark/damp with no clear paling since midday, so the reserve pulse was not spent tonight.
 - **Lamp: on**, correct for the 07:02–20:47 photoperiod; cron will switch it off at 20:47.
 - Journal updated with a dated EMERGENCY entry; no changes to standing orders.
+Check-in complete for 2026-08-30 07:12. Summary:
+
+**EMERGENCY: reservoir empty (ongoing, day 2 of end-game).** The zoomed jar photo shows no water above the pump body — the jar is effectively empty and no refill has happened. A human must refill the mason jar or the seedlings will die of drought within days.
+
+- **Seedlings (day 6):** vigorous in all 12 cells — tall, leggy, cotyledons open and green, first true leaves starting. No wilting, mold, pests, or tipped cells.
+- **Soil:** medium — a mix of dark damp patches and drier crumbly spots with perlite showing. The dry-down has started but nothing has dramatically paled and no wilting yet.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Watering:** none (0s of daily cap used). The single reserve 3s pulse stays unused because standing order 2's condition (b) fails — water no longer clearly covers the pump body, so running the pump would risk a dry run. I now consider the pump retired unless a photo shows a refilled jar.
+
+Journal entry appended; no changes to standing orders.
