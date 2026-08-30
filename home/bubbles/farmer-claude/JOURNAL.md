@@ -123,3 +123,10 @@
 - Soil: cell surfaces still mostly dark/damp — yesterday's moisture holding, no clear paling since 07:12.
 - Lamp: on — correct for photoperiod. Watering: none (observe-only, and end-game rules in force; 0s of daily cap used).
 - No changes to standing orders. The single remaining 3s pulse stays in reserve for visible soil paling while water still clearly covers the pump.
+
+### 2026-08-29 19:22 — evening check-in (cron)
+- EMERGENCY: reservoir empty (ongoing). Zoomed jar photo shows the waterline still AT the top of the pump body — no refill. A human must refill the mason jar or the seedlings will die of drought within days; none is expected.
+- Photo: seedlings vigorous in all 12 cells (day 5) — dense leggy green mats, cotyledons open and green, a few seed hulls still attached. No mold/pests/tipping. Tube in place over the lid.
+- Soil: cell surfaces still mostly dark/damp — no clear paling since midday, moisture holding.
+- Lamp: on — correct for photoperiod. Watering: none (end-game rules; 0s of daily cap used). The single reserve 3s pulse remains unused — soil has not paled and the waterline no longer clearly covers the pump body.
+- No changes to standing orders.

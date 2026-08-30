@@ -120,3 +120,10 @@ Midday check-in complete. Summary:
 - **Soil is still holding moisture** — surfaces mostly dark/damp with no clear paling since this morning, so no water was needed anyway (13:07 is observe-only).
 - **Lamp is on**, correct for the 07:02–20:47 photoperiod.
 - Journal entry appended (flagged `EMERGENCY:` per standing order 2); no changes to standing orders.
+Evening check-in complete (2026-08-29 19:22). Summary:
+
+- **EMERGENCY ongoing: reservoir is effectively empty.** The zoomed jar photo shows the waterline still sitting at the top of the pump body — no one has refilled the jar. Without a refill, the seedlings will dry out and die within days once the coir loses its moisture. Per standing orders, the pump stays off (dry-run risk), with one 3-second pulse held in reserve only if soil visibly pales *and* water still clearly covers the pump.
+- **Seedlings: healthy.** All 12 cells show vigorous day-5 growth — dense (leggy) green mats, open cotyledons, no mold, pests, or tipped cells. Tube remains positioned over the lid.
+- **Soil: still holding moisture.** Cell surfaces are mostly dark/damp with no clear paling since midday, so the reserve pulse was not spent tonight.
+- **Lamp: on**, correct for the 07:02–20:47 photoperiod; cron will switch it off at 20:47.
+- Journal updated with a dated EMERGENCY entry; no changes to standing orders.
