@@ -152,3 +152,10 @@
 - Lamp: on — correct for photoperiod.
 - Watering: none (end-game rules; 0s of daily cap used, pump retired — no water clearly covers the pump body).
 - No changes to standing orders.
+
+### 2026-08-31 07:12 — morning check-in (cron)
+- EMERGENCY: reservoir empty (ongoing). Zoomed jar photo shows the jar transparent with no waterline anywhere — no refill. A human must refill the mason jar or the seedlings will die of drought within days; none is expected.
+- Photo: seedlings still vigorous in all 12 cells (day 7) — tall and leggy, cotyledons broad and green, now tall enough to partially block the camera's view of the jar. No wilting, mold, pests, or tipping. Tube in place over the lid.
+- Soil: mixed and drying further — some dark damp patches remain, more cells crumbly/pale with perlite showing; coir walls very pale. No wilt stress yet, but the dry-down is advancing.
+- Lamp: on — correct for photoperiod. Watering: none (end-game rules; 0s of daily cap used, pump retired).
+- No changes to standing orders.
