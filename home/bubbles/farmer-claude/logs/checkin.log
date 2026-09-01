@@ -180,3 +180,12 @@ Everything else from the 13:07 observe-only check-in:
 - **Watering:** none — 13:07 is observe-only, and the end-game rules keep the pump retired (0s of the daily cap used; the reserve 3s pulse remains off the table because no water covers the pump body).
 
 Journal updated with a dated EMERGENCY entry; standing orders unchanged.
+Evening check-in (2026-08-31 19:22) complete. Summary:
+
+- **EMERGENCY: reservoir empty (ongoing, no refill).** The zoomed jar photo shows the jar fully transparent — no waterline anywhere, just the pump body at the bottom. A human must refill the mason jar or the seedlings will die of drought within days.
+- **Seedlings:** still vigorous in all 12 cells on day 7 — tall, leggy, cotyledons broad, turgid, and green with no wilting, remarkable given two full days without water. No mold, pests, or tipped pots; the tube is still in place over the lid.
+- **Soil:** dry-down continuing gradually — visible surfaces mostly dark with perlite showing, coir walls very pale — but no wilt stress yet.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod; cron will turn it off at 20:47.
+- **Watering:** none. End-game rules remain in force — the pump stays retired because no water covers it, so running it risks a dry run.
+
+Journal entry appended; standing orders unchanged.
