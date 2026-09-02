@@ -222,3 +222,10 @@ What happened at the 19:22 evening check-in:
 - **Standing order 2 rewritten:** end-game protocol retired, routine policy restored (4s pulses at morning and evening check-ins, skip when soil is dark, midday observe-only), with instructions to reinstate the end-game rules when the waterline again nears the pump body. Journal entry logged, and I updated my memory to note that refills can happen but can't be counted on — conservation stays the default.
 
 Next scheduled check-in is 07:12 tomorrow, where I expect to pulse 4s unless the soil surfaces look dark.
+Check-in complete — all healthy, watering back on routine.
+
+- **Seedlings (day 9):** vigorous in all 12 cells — tall and leggy but turgid, cotyledons broad and green, true leaves coming in. No wilting, mold, pests, or tipped pots. They bounced back well from the 4-day drought.
+- **Jar:** the refill held overnight — zoomed photo shows dark water still high in the glass, pump well covered.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Watering:** ran the routine morning 4s pulse (soil was mixed damp/dry, coir still pale from the dry-down). water.py reported OK, pump plug verified OFF afterward, jar level held. 4s of the 60s daily cap used.
+- **Journal:** entry appended; no changes to standing orders. Next check-in at 13:07 is observe-only.
