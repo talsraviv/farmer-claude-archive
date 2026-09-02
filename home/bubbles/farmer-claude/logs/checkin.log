@@ -211,3 +211,14 @@ What I observed and did:
 - **Lamp**: on, correct for the 07:02–20:47 photoperiod.
 - **Watering**: none — 13:07 is observe-only, and end-game rules keep the pump retired since water no longer covers the pump body (dry-run risk).
 - **Journal**: appended the dated EMERGENCY entry; no changes to standing orders.
+Check-in complete — and it was the big one: **the jar has been refilled and watering is resumed.**
+
+What happened at the 19:22 evening check-in:
+
+- **Jar refilled.** After three days of the jar sitting bone-dry and transparent, tonight's photo (confirmed with a zoomed shot) shows dark water filling the glass to near the neck, with condensation inside. The human intervened silently. The drought emergency is over.
+- **Verification pulse ran clean.** Per the resume protocol I ran a 3s pulse — water.py reported OK (3s of the 60s daily cap used), the pump plug confirmed OFF afterward, and the jar level held with the siphon self-limiting as before.
+- **Seedlings are fine.** All 12 cells vigorous on day 8 — tall and leggy but turgid, cotyledons broad and green, true leaves developing, no wilting despite roughly four dry days. No mold, pests, or tipping. Soil is mixed dark/pale with very pale coir walls after the dry-down; the bottom-feed rewetting starts now.
+- **Lamp on** — correct for the photoperiod (off at 20:47 via cron).
+- **Standing order 2 rewritten:** end-game protocol retired, routine policy restored (4s pulses at morning and evening check-ins, skip when soil is dark, midday observe-only), with instructions to reinstate the end-game rules when the waterline again nears the pump body. Journal entry logged, and I updated my memory to note that refills can happen but can't be counted on — conservation stays the default.
+
+Next scheduled check-in is 07:12 tomorrow, where I expect to pulse 4s unless the soil surfaces look dark.
