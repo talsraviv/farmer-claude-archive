@@ -268,3 +268,10 @@ Evening check-in complete — all routine, nothing urgent.
 - **Jar:** zoomed photo shows dark water still high in the glass — the 09-01 refill is holding and the pump body is well covered.
 - **Watering:** soil surfaces were mixed (damp centers, drier crumbly spots), so I ran the scheduled 4s evening pulse (8s of the 60s daily cap used). water.py reported OK, the pump plug verified off afterward, and the post-pulse photo shows a wet sheen on the lid channels — bottom-feed path working, jar level held.
 - **Journal:** dated entry appended; no changes to standing orders. Next action is the 07:12 morning check-in with a pulse unless the soil looks dark.
+Morning check-in complete (day 11). Everything is healthy and routine:
+
+- **Seedlings:** vigorous in all 12 cells — tall and leggy with broad green cotyledons and true leaves developing. No wilting, mold, pests, or tipped pots.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Jar:** dark water still high in the glass; the 2026-09-01 refill is holding and the pump body is well covered.
+- **Watering:** soil surfaces were mixed (damp centers, drier crumbly spots), so I ran the standard morning 4s pulse — water.py reported OK, 4s of the 60s daily cap used, and I verified the pump plug is OFF afterward.
+- **Journal:** appended the dated entry. No changes to standing orders; next check-in at 13:07 is observe-only.
