@@ -266,3 +266,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (8s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 07:12 pulse unless surfaces look dark.
+
+### 2026-09-05 07:12 — morning check-in (cron)
+- Photo: seedlings vigorous in all 12 cells (day 12) — tall, leggy, cotyledons broad, turgid, and green; true leaves developing; one seed hull still on a cotyledon tip (normal). No wilting, mold, pests, or tipping. Tube in place over the lid.
+- Jar: zoomed photo shows dark water still high in the glass — refill holding, pump body well covered, siphon losses negligible.
+- Soil: mixed — dark damp centers, drier crumbly spots with perlite showing; coir walls pale. Not uniformly dark → pulse warranted.
+- Lamp: on — correct for photoperiod.
+- Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
+- No changes to standing orders. Next: 13:07 observe-only; 19:22 pulse unless surfaces look dark.
