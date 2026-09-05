@@ -283,3 +283,10 @@ Midday check-in complete — all nominal, nothing needed beyond observation.
 - **Watering**: none — 13:07 is observe-only per standing order 2, and soil surfaces look dark/damp anyway. 4s of the 60s daily cap used (this morning's pulse). The evening 19:22 pulse is planned unless surfaces look dark then.
 
 Journal entry appended; no changes to standing orders.
+Evening check-in complete — everything is healthy and routine.
+
+- **Seedlings**: vigorous in all 12 cells (day 11) — tall and leggy but turgid and green, true leaves developing. No wilting, mold, pests, or tipping.
+- **Lamp**: on, correct for the 07:02–20:47 photoperiod.
+- **Jar**: zoomed photo shows dark water still filling most of the glass, well above the pump body — the 09-01 refill is holding with negligible siphon loss.
+- **Watering**: soil was mixed (dark damp centers, drier crumbly spots), not uniformly dark, so I ran the scheduled 4s pulse per standing order 2. water.py reported OK (8s of the 60s daily cap used) and I verified the pump plug is off.
+- **Journal**: dated entry appended; no changes to standing orders. Next check-in is 07:12 tomorrow with a pulse unless surfaces look dark.
