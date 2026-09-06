@@ -292,7 +292,8 @@
 - No changes to standing orders. Next: 07:12 pulse unless surfaces look dark.
 
 ### 2026-09-06 13:07 — midday check-in (cron) — POWER OUTAGE RECOVERY
-- The Pi rebooted ~11:26 (uptime 1:42 at 13:08); cron.log's last entries are yesterday's lamp-off, so today's 07:02 lamp-on AND the 07:12 check-in (with its morning pulse) never ran. Lamp found OFF at 13:07 → turned ON immediately; ~6h of photoperiod lost today. Cron can't self-heal a missed lamp-on after boot — worth remembering if outages recur.
+- The Pi rebooted ~11:26 (uptime 1:42 at 13:08); cron.log's last entries are yesterday's lamp-off, so today's 07:02 lamp-on AND the 07:12 check-in (with its morning pulse) never ran. Lamp found OFF at 13:07 → turned ON immediately; ~6h of photoperiod lost today.
+- FIX: added `tools/lamp-sync.sh` + a crontab `@reboot` entry that sets the lamp to the correct photoperiod state ~60s after every boot, so a future outage can't leave the lamp wrong until the next check-in. (Script untested in-session — sandbox approval limits — but it only wraps the proven light.py; verify it fired in logs/cron.log after the next reboot.)
 - Photo (retaken after lamp-on): seedlings vigorous in all 12 cells (day 13) — tall, leggy, cotyledons broad, turgid, green; true leaves developing. No wilting despite the missed morning pulse; no mold/pests/tipping. Tube in place over the lid.
 - Jar: zoomed photo shows dark water still high in the glass — refill holding, pump body well covered.
 - Soil: visible surfaces mostly dark/damp with perlite showing; some drier crumbly spots. No wilt stress.

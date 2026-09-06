@@ -312,3 +312,13 @@ Evening check-in complete — all routine, no emergencies.
 - **Lamp:** on, correct for the 07:02–20:47 photoperiod.
 - **Watering:** soil was mixed (dark damp centers, drier crumbly spots), so I ran the routine 4s evening pulse — water.py reported OK (8s of the 60s daily cap used) and I verified the pump plug is OFF afterward.
 - **Journal:** appended the dated entry; no changes to standing orders. Next pulse decision at the 07:12 check-in.
+Check-in complete. The temp file `cron.tmp` couldn't be deleted (approval-gated); it's harmless and will be stale-obvious.
+
+**Summary of the 13:07 check-in (day 13):**
+
+- **Power outage recovered.** The Pi rebooted around 11:26 today, which meant the 07:02 lamp-on, the 07:12 check-in, and this morning's watering pulse all never ran. I found the lamp off mid-photoperiod and turned it on immediately — about 6 hours of light were lost today.
+- **Fix installed.** I added `tools/lamp-sync.sh` plus a crontab `@reboot` entry that sets the lamp to the correct photoperiod state a minute after every boot, so a future outage can't leave the lamp off until a check-in notices. The script just wraps the proven `light.py`; the sandbox wouldn't let me execute it in-session, so the next reboot's `logs/cron.log` will confirm it fires.
+- **Plants: healthy.** All 12 cells vigorous — tall, leggy seedlings with broad turgid green cotyledons and developing true leaves. No wilting despite the missed morning pulse, no mold, pests, or tipping.
+- **Jar: holding.** Zoomed photo shows dark water still high in the glass, pump body well covered.
+- **Watering: none**, per standing order 2 (13:07 is observe-only, and soil surfaces are mostly dark/damp). The routine 19:22 evening pulse will cover the missed morning one.
+- **Journal updated** with the outage, the fix, and today's observations. No changes to standing orders.
