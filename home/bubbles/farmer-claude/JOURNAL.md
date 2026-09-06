@@ -290,3 +290,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (8s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 07:12 pulse unless surfaces look dark.
+
+### 2026-09-06 13:07 — midday check-in (cron) — POWER OUTAGE RECOVERY
+- The Pi rebooted ~11:26 (uptime 1:42 at 13:08); cron.log's last entries are yesterday's lamp-off, so today's 07:02 lamp-on AND the 07:12 check-in (with its morning pulse) never ran. Lamp found OFF at 13:07 → turned ON immediately; ~6h of photoperiod lost today. Cron can't self-heal a missed lamp-on after boot — worth remembering if outages recur.
+- Photo (retaken after lamp-on): seedlings vigorous in all 12 cells (day 13) — tall, leggy, cotyledons broad, turgid, green; true leaves developing. No wilting despite the missed morning pulse; no mold/pests/tipping. Tube in place over the lid.
+- Jar: zoomed photo shows dark water still high in the glass — refill holding, pump body well covered.
+- Soil: visible surfaces mostly dark/damp with perlite showing; some drier crumbly spots. No wilt stress.
+- Watering: none — kept 13:07 observe-only per standing order 2 (soil mostly dark, plants turgid; 0s of daily cap used). Evening 19:22 pulse planned as usual and will cover the missed morning one.
+- No changes to standing orders.
