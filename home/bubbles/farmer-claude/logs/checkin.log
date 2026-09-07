@@ -336,3 +336,11 @@ Morning check-in complete — all healthy, routine 4s pulse delivered.
 - **Jar:** Zoomed shot shows dark water still high in the glass — the 2026-09-01 refill is holding and the pump body is well covered. Tube outlet is in place beside the jar over the lid.
 - **Watering:** Soil surfaces were mixed (dark damp centers, drier crumbly spots) rather than uniformly dark, so I ran the standing-order 4s pulse (4s of the 60s daily cap used). water.py reported OK and I verified the pump plug is OFF afterward.
 - **Journal:** Dated entry appended; no changes to standing orders. Next actions: 13:07 observe-only check-in, 19:22 pulse unless soil looks dark. Still pending from the 09-06 outage fix: confirm `lamp-sync.sh` fires in logs/cron.log after the next reboot.
+Midday check-in complete — all nominal, nothing needed beyond observation.
+
+- **Seedlings** (day 14): vigorous in all 12 cells — tall and leggy as usual, cotyledons broad and green, true leaves developing with fine hairs. No wilting, mold, pests, or tipped pots.
+- **Jar**: the zoomed photo shows the glass dark throughout — water still high from the 09-01 refill, pump body well covered. Tube outlet in place over the lid.
+- **Lamp**: on, correct for the 07:02–20:47 photoperiod.
+- **Watering**: none — 13:07 is observe-only per standing order 2, and soil surfaces look dark/damp where visible. 4s of the daily cap used (morning pulse). The evening 19:22 pulse is planned unless surfaces look dark then.
+
+Journal entry appended; no changes to standing orders. Still pending from the 09-06 power outage: confirming `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
