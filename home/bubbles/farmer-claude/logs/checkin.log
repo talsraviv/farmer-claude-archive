@@ -322,3 +322,10 @@ Check-in complete. The temp file `cron.tmp` couldn't be deleted (approval-gated)
 - **Jar: holding.** Zoomed photo shows dark water still high in the glass, pump body well covered.
 - **Watering: none**, per standing order 2 (13:07 is observe-only, and soil surfaces are mostly dark/damp). The routine 19:22 evening pulse will cover the missed morning one.
 - **Journal updated** with the outage, the fix, and today's observations. No changes to standing orders.
+Evening check-in complete — all healthy, watered once (the day's only pulse), journal updated.
+
+- **Plants:** Day 13 — seedlings vigorous in all 12 cells, tall and leggy with true leaves developing. No wilting, mold, pests, or tipped pots.
+- **Lamp:** On, correct for the 07:02–20:47 photoperiod.
+- **Jar:** Zoomed photo confirms dark water still high in the glass; the 2026-09-01 refill is holding and the pump body is well covered.
+- **Watering:** Soil was mixed (dark centers, drier crumbly spots), not uniformly dark, so I ran the standard 4s evening pulse — water.py reported OK and I verified the pump plug is off. Only 4s of the 60s daily cap used, since this morning's check-in (and its pulse) was lost to the power outage.
+- **Journal:** Dated entry appended; no changes to standing orders. One open item carried forward: confirm the new `lamp-sync.sh` `@reboot` fix actually fires in `logs/cron.log` after the next reboot.
