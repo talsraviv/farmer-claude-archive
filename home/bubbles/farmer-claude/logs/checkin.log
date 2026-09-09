@@ -383,3 +383,12 @@ Morning check-in complete (2026-09-09 07:12, day 16) — all healthy, routine pu
 - **Journal:** dated entry appended; no changes to standing orders.
 
 Next check-in at 13:07 is observe-only. Still pending from the 09-06 outage fix: confirming lamp-sync.sh fires in logs/cron.log after the next reboot.
+Midday check-in complete — all healthy, nothing needed beyond observation.
+
+- **Seedlings (day 16):** vigorous in all 12 cells — tall and leggy with broad turgid cotyledons, true leaves growing with fine hairs, pink brassica-like stems on several. No wilting, mold, pests, or tipping.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Jar:** zoomed photo shows the glass dark throughout the visible body — the refill is holding and the pump body is well covered.
+- **Soil:** mostly dark/damp where visible, a few drier crumbly spots; no dry-down alarm since the morning 4s pulse.
+- **Watering:** none — 13:07 is observe-only per standing order 2 (4s of the 60s daily cap used so far today). The evening 19:22 pulse remains planned unless surfaces look dark.
+
+Journal entry appended; no changes to standing orders. Still pending from the 09-06 outage fix: confirming `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
