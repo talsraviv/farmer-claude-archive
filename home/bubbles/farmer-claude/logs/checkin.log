@@ -408,3 +408,12 @@ Morning check-in complete (2026-09-10 07:12, day 17). All routine, no emergencie
 - **Watering**: delivered the scheduled 4s morning pulse per standing order 2 (water.py OK, 4s of the 60s daily cap used, pump plug verified OFF afterward).
 
 Journal entry appended; no changes to standing orders. Next check-in at 13:07 is observe-only, and the lamp-sync.sh reboot verification remains pending until the next reboot.
+Midday check-in complete — all nominal, nothing needed beyond observation.
+
+- **Seedlings** (day 17): vigorous in all 12 cells — tall and leggy with broad turgid green cotyledons, true leaves growing with fine hairs, pink brassica-like stems on several. No wilting, mold, pests, or tipped pots.
+- **Jar**: zoomed photo shows dark water throughout the visible glass with a meniscus highlight near the shoulder — the refill is holding and the pump body is well covered. Tube outlet in place beside the jar over the lid.
+- **Soil**: dark/damp where visible, a few drier crumbly spots — no dry-down alarm since the morning pulse.
+- **Lamp**: on, correct for the 07:02–20:47 photoperiod.
+- **Watering**: none — 13:07 is observe-only per standing order 2. The 4s morning pulse leaves 4s of the 60s daily cap used; the evening 19:22 pulse remains planned unless surfaces look dark.
+
+Journal entry appended; no changes to standing orders. Still pending from the 9/6 power outage fix: confirming `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
