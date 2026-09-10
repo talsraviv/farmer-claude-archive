@@ -399,3 +399,12 @@ Evening check-in complete — all routine, no anomalies.
 - **Lamp**: On, correct for the 07:02–20:47 photoperiod.
 - **Watering**: Soil was mixed (dark centers, drier crumbly spots), not uniformly dark, so I ran the scheduled 4s evening pulse — water.py reported OK (8s of 60s daily cap used) and I verified the pump plug is OFF afterward.
 - **Journal**: Entry appended; no changes to standing orders. Still pending from the 9/06 outage: confirming lamp-sync.sh fires in logs/cron.log after the next reboot.
+Morning check-in complete (2026-09-10 07:12, day 17). All routine, no emergencies:
+
+- **Seedlings**: vigorous in all 12 cells — tall and leggy with broad, turgid green cotyledons, true leaves growing with visible fine hairs, and pink stems on several (brassica-like, normal). No wilting, mold, pests, or tipped cells.
+- **Lamp**: on, correct for the 07:02–20:47 photoperiod.
+- **Jar**: zoomed photo shows the glass dark throughout the visible body — the refill is holding and the pump body is well covered. Tube outlet in place beside the jar over the lid.
+- **Soil**: mixed — dark damp centers but drier crumbly spots and pale coir walls, so not uniformly dark.
+- **Watering**: delivered the scheduled 4s morning pulse per standing order 2 (water.py OK, 4s of the 60s daily cap used, pump plug verified OFF afterward).
+
+Journal entry appended; no changes to standing orders. Next check-in at 13:07 is observe-only, and the lamp-sync.sh reboot verification remains pending until the next reboot.
