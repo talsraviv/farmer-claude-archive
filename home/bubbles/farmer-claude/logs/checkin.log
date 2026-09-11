@@ -433,3 +433,11 @@ Morning check-in complete (2026-09-11, 07:12) — all routine, nothing urgent.
 - **Journal:** Dated entry appended (I initially inserted it above the 9/10 entries by mistake, then moved it to the correct chronological spot at the end of the log). No changes to standing orders.
 
 Next check-in is 13:07 (observe-only). Still pending from 9/6: verifying that `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
+Midday check-in complete (2026-09-11 13:07, day 18) — all healthy, nothing needed beyond observation.
+
+- **Seedlings:** vigorous in all 12 cells — tall, leggy, broad green cotyledons, true leaves with fine hairs, pink brassica-like stems. No wilting, mold, pests, or tipping.
+- **Jar:** the zoomed shot shows water still present and covering the pump; the refill from 2026-09-01 is holding. Foliage is increasingly blocking the camera's view of the jar, which will make level-tracking harder going forward.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Watering:** none — 13:07 is observe-only per standing order 2, and soil showed no dry-down alarm since the morning 4s pulse (4s of the 60s daily cap used). The evening 19:22 pulse remains planned unless surfaces look dark.
+
+Journal entry appended; no changes to standing orders. Still pending from the 09-06 power outage: confirming `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
