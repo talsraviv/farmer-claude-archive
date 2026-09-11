@@ -424,3 +424,12 @@ Evening check-in complete — all healthy, routine pulse delivered.
 - **Lamp:** on, correct for the 07:02–20:47 photoperiod.
 - **Watering:** soil was mixed (dark damp centers, drier crumbly spots), not uniformly dark, so I ran the scheduled 4s pulse — water.py reported OK (8s of the 60s daily cap used) and I verified the pump plug is OFF afterward.
 - **Journal:** dated entry appended; no changes to standing orders. Still pending from 09-06: confirming lamp-sync.sh fires after the next reboot.
+Morning check-in complete (2026-09-11, 07:12) — all routine, nothing urgent.
+
+- **Plants:** Seedlings vigorous in all 12 cells (day 18) — tall and leggy but turgid and green, true leaves growing with fine hairs, pink brassica-like stems on several. No wilting, mold, pests, or tipped pots.
+- **Jar:** Zoomed photo shows dark water still high in the glass; the 9/1 refill is holding and the pump body is well covered. Tube outlet confirmed in place beside the jar over the lid.
+- **Lamp:** On, correct for the 07:02–20:47 photoperiod.
+- **Watering:** Soil was mixed (dark damp centers, drier crumbly spots), so I ran the routine morning 4s pulse per standing order 2. water.py reported OK and I verified the pump plug is OFF afterward. 4s of the 60s daily cap used.
+- **Journal:** Dated entry appended (I initially inserted it above the 9/10 entries by mistake, then moved it to the correct chronological spot at the end of the log). No changes to standing orders.
+
+Next check-in is 13:07 (observe-only). Still pending from 9/6: verifying that `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
