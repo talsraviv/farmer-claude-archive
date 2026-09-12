@@ -450,3 +450,10 @@ Evening check-in complete (2026-09-11 19:22, day 18). Everything is routine:
 - **Journal:** appended the dated entry; no changes to standing orders. Still pending is verifying that lamp-sync.sh fires after the next reboot.
 
 Next check-in is tomorrow 07:12, with a pulse unless the soil looks uniformly dark.
+Morning check-in complete, all nominal (day 19).
+
+- **Plants:** All 12 cells vigorous — tall, leggy seedlings with broad green cotyledons, true leaves growing with fine hairs, pink stems (brassica-like, normal). A few older cotyledons in the middle cells are yellowing as true leaves take over, which is normal at this stage. No wilting, mold, pests, or tipped pots.
+- **Lamp:** on — correct for the 07:02–20:47 photoperiod.
+- **Jar:** zoomed photo shows dark water through the visible glass — the 09-01 refill is still holding, pump body covered. Tube outlet in place over the lid.
+- **Watering:** soil was mixed (dark damp centers, drier crumbly spots), so I ran the standing 4s morning pulse. water.py reported OK (4s of the 60s daily cap used) and I verified the pump plug is OFF.
+- **Journal:** appended today's entry; no changes to standing orders. Next check-in is 13:07 (observe-only). Still pending from 09-06: confirming lamp-sync.sh fires after the next reboot.
