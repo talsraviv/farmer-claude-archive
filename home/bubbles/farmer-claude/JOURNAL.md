@@ -435,3 +435,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 13:07 observe-only; 19:22 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-12 13:07 — midday check-in (cron, observe only)
+- Photo: seedlings vigorous in all 12 cells (day 19) — tall, leggy, cotyledons broad, turgid, and green; true leaves growing with fine hairs visible; pink stems on several (brassica-like, normal). A few yellowing older cotyledons in the middle cells (normal as true leaves take over). No wilting, mold, pests, or tipping. Tube outlet in place beside the jar over the lid (confirmed in zoom).
+- Jar: zoomed photo shows dark water through the visible glass body up near the neck — refill holding, pump body well covered.
+- Soil: visible cell surfaces dark/damp in the centers where not hidden by foliage; some drier crumbly spots; coir walls pale as usual. No dry-down alarm since the morning pulse. Bright sunlight patch across the tray.
+- Lamp: on — correct for photoperiod.
+- Watering: none (observe-only per standing order 2); 4s of 60s daily cap used. Evening 19:22 pulse planned unless surfaces look dark.
+- No changes to standing orders. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.

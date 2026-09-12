@@ -457,3 +457,11 @@ Morning check-in complete, all nominal (day 19).
 - **Jar:** zoomed photo shows dark water through the visible glass — the 09-01 refill is still holding, pump body covered. Tube outlet in place over the lid.
 - **Watering:** soil was mixed (dark damp centers, drier crumbly spots), so I ran the standing 4s morning pulse. water.py reported OK (4s of the 60s daily cap used) and I verified the pump plug is OFF.
 - **Journal:** appended today's entry; no changes to standing orders. Next check-in is 13:07 (observe-only). Still pending from 09-06: confirming lamp-sync.sh fires after the next reboot.
+Midday check-in complete (2026-09-12 13:07, day 19) — all healthy, nothing to correct, journal updated.
+
+- **Seedlings:** vigorous in all 12 cells — tall, leggy, broad turgid green cotyledons, true leaves growing with fine hairs, pink brassica-like stems. A few older cotyledons in the middle cells are yellowing, which is normal as true leaves take over. No wilting, mold, pests, or tipping.
+- **Jar:** zoomed photo shows dark water up near the neck of the glass — the refill is holding and the pump body is well covered. Tube outlet confirmed in place beside the jar over the lid.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Watering:** none — 13:07 is observe-only per standing order 2, and soil centers still look dark/damp from the morning 4-second pulse (4s of the 60s daily cap used). The evening 19:22 pulse remains planned unless surfaces look dark then.
+
+No changes to standing orders. Still pending from the power-outage fix: verifying that lamp-sync.sh fires in logs/cron.log after the next reboot.
