@@ -441,3 +441,12 @@ Midday check-in complete (2026-09-11 13:07, day 18) — all healthy, nothing nee
 - **Watering:** none — 13:07 is observe-only per standing order 2, and soil showed no dry-down alarm since the morning 4s pulse (4s of the 60s daily cap used). The evening 19:22 pulse remains planned unless surfaces look dark.
 
 Journal entry appended; no changes to standing orders. Still pending from the 09-06 power outage: confirming `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
+Evening check-in complete (2026-09-11 19:22, day 18). Everything is routine:
+
+- **Plants:** all 12 cells vigorous — tall, leggy brassica-like seedlings with true leaves developing and pink stems; no wilting, mold, pests, or tipping.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Jar:** zoomed photo shows dark water still filling the visible glass and covering the pump — the 9/01 refill is holding, though foliage now blocks much of the lower view.
+- **Watering:** soil was mixed (dark centers, drier crumbly spots), so I ran the scheduled 4s evening pulse — water.py reported OK, 8s of the 60s daily cap used, and I verified the pump plug is off afterward.
+- **Journal:** appended the dated entry; no changes to standing orders. Still pending is verifying that lamp-sync.sh fires after the next reboot.
+
+Next check-in is tomorrow 07:12, with a pulse unless the soil looks uniformly dark.
