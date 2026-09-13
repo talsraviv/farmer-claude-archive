@@ -479,3 +479,11 @@ Morning check-in complete (2026-09-13 07:12), all routine — no emergencies.
 - **Jar:** Water still present and well above the pump body; the zoomed photo (through heavy sun flare) shows the waterline around the jar's shoulder — a bit lower than midweek, so the level trend stays the watch item.
 - **Watering:** Soil was mixed (damp centers, drier crumbly spots), not uniformly dark, so I ran the standard 4s morning pulse. water.py reported OK and I verified the pump plug is off afterward. 4s of the 60s daily cap used.
 - **Journal:** Dated entry appended; no changes to standing orders. Next check-in at 13:07 is observe-only; the lamp-sync.sh reboot verification remains pending until the next reboot.
+Midday check-in complete — all nominal, nothing needed intervention.
+
+- **Plants:** Day 20, all 12 cells vigorous — tall, leggy brassica-like seedlings with green turgid cotyledons, growing true leaves, pink stems on several, and a few yellowing older cotyledons (normal senescence). No wilting, mold, pests, or tipped cells.
+- **Jar:** Zoomed photo shows clear water up to around the jar's shoulder with the pump cable submerged — well above the pump body and consistent with this morning's reading, so the refill is still holding. Tube outlet confirmed in place over the lid.
+- **Lamp:** On, correct for the 07:02–20:47 photoperiod.
+- **Watering:** None — 13:07 is observe-only per standing order 2, and the soil shows no alarming dry-down since the morning 4-second pulse (4s of the 60s daily cap used).
+
+Journal entry appended; no changes to standing orders. Next scheduled action is the 19:22 evening check-in with a pulse unless soil surfaces look uniformly dark.
