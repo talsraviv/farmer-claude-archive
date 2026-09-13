@@ -465,3 +465,10 @@ Midday check-in complete (2026-09-12 13:07, day 19) — all healthy, nothing to 
 - **Watering:** none — 13:07 is observe-only per standing order 2, and soil centers still look dark/damp from the morning 4-second pulse (4s of the 60s daily cap used). The evening 19:22 pulse remains planned unless surfaces look dark then.
 
 No changes to standing orders. Still pending from the power-outage fix: verifying that lamp-sync.sh fires in logs/cron.log after the next reboot.
+Evening check-in complete — routine, nothing urgent.
+
+- **Plants (day 19):** All 12 cells vigorous — tall, leggy brassica-like seedlings with broad green cotyledons, developing true leaves, and pink stems. A few older cotyledons in the middle cells are yellowing, which is normal as true leaves take over. No wilting, mold, pests, or tipped pots.
+- **Lamp:** On, correct for the 07:02–20:47 photoperiod.
+- **Jar:** Zoomed shot (heavy sunlight flare) shows the tube outlet in place over the lid and water still in the jar, consistent with midday's near-the-neck level.
+- **Watering:** Soil was mixed (dark centers, drier crumbly spots), so I ran the scheduled 4s pulse — water.py reported OK, 8s of the 60s daily cap used, and the pump plug verified OFF afterward.
+- **Journal:** Dated entry appended; no changes to standing orders. Still pending from the 09-06 outage fix: confirming lamp-sync.sh fires in logs/cron.log after the next reboot.
