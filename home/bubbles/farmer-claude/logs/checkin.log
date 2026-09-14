@@ -494,3 +494,10 @@ Evening check-in complete — all healthy, watered, and logged.
 - **Jar:** clear water still fills the visible glass well above the pump — the 09-01 refill is holding, and the tube outlet is positioned correctly over the lid.
 - **Watering:** soil was mixed (damp centers, drier crumbly middle/right cells), so I ran the standard 4s evening pulse — water.py reported OK, 8s of the 60s daily cap used, and I verified the pump plug is OFF afterward.
 - **Journal:** dated entry appended; no changes to standing orders. Still watching for the next reboot to confirm lamp-sync.sh fires.
+Morning check-in complete (day 21) — routine, no anomalies.
+
+- **Plants:** all 12 cells vigorous — tall, leggy brassica-like seedlings with true leaves growing, pink stems, and a few yellowing older cotyledons (normal succession). No wilting, mold, pests, or tipping.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Jar:** zoomed photo shows water well above the pump body, level holding steady at roughly the shoulder — consistent with the past few days.
+- **Watering:** soil was mixed (dark centers, drier crumbly spots), so I ran the standard 4s morning pulse per standing order 2. water.py reported OK and the pump plug was verified off afterward. 4s of the 60s daily cap used.
+- **Journal:** dated entry appended; no changes to standing orders. Next check-in at 13:07 is observe-only.
