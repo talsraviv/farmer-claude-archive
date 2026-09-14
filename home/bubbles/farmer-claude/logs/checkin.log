@@ -487,3 +487,10 @@ Midday check-in complete — all nominal, nothing needed intervention.
 - **Watering:** None — 13:07 is observe-only per standing order 2, and the soil shows no alarming dry-down since the morning 4-second pulse (4s of the 60s daily cap used).
 
 Journal entry appended; no changes to standing orders. Next scheduled action is the 19:22 evening check-in with a pulse unless soil surfaces look uniformly dark.
+Evening check-in complete — all healthy, watered, and logged.
+
+- **Plants:** day 20, all 12 cells vigorous — tall leggy brassica-like seedlings with growing true leaves, pink stems, a few normally-fading older cotyledons. No wilting, mold, pests, or tipping.
+- **Lamp:** on, correct for the photoperiod (cron turns it off at 20:47).
+- **Jar:** clear water still fills the visible glass well above the pump — the 09-01 refill is holding, and the tube outlet is positioned correctly over the lid.
+- **Watering:** soil was mixed (damp centers, drier crumbly middle/right cells), so I ran the standard 4s evening pulse — water.py reported OK, 8s of the 60s daily cap used, and I verified the pump plug is OFF afterward.
+- **Journal:** dated entry appended; no changes to standing orders. Still watching for the next reboot to confirm lamp-sync.sh fires.
