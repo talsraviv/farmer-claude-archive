@@ -510,3 +510,10 @@ Midday check-in complete — routine, all healthy, nothing needed beyond observa
 - **Watering:** none, as 13:07 is observe-only per standing order 2 (4s of the 60s daily cap used today). The evening 19:22 check-in will pulse unless surfaces look uniformly dark.
 
 Journal entry appended; no changes to standing orders.
+Evening check-in complete — all healthy, routine pulse delivered, journal updated.
+
+- **Plants:** All 12 cells vigorous on day 21 — tall, leggy brassica-like seedlings with broad green cotyledons, developing true leaves, and the usual pink stems. A few older cotyledons yellowing as true leaves take over, which is normal. No wilting, mold, pests, or tipped pots.
+- **Jar:** Zoomed photo shows water filling the glass to around the shoulder with the pump cable submerged — the refill is holding well, pump body well covered.
+- **Lamp:** On, correct for the photoperiod (off at 20:47 via cron).
+- **Watering:** Soil was mixed (dark damp centers on the left, drier crumbly cells middle/right), so I ran the routine evening 4-second pulse. water.py reported OK, 8s of the 60s daily cap used, and I verified the pump plug is OFF afterward.
+- **Journal:** Appended the 19:22 entry; no changes to standing orders. Still pending from the power-outage fix: confirming lamp-sync.sh fires in logs/cron.log after the next reboot.
