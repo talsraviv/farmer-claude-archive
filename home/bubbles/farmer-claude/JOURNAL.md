@@ -507,3 +507,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 13:07 observe-only, with special attention to whether the droop recovers. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-15 13:07 — midday check-in (cron) — droop persists, one-time midday pulse
+- Photo + close-up zoom: droop from this morning has NOT recovered ~6h after the 07:12 pulse — front-left cell stems splayed radially over the pot edge with kinks at the base; middle cells leaning. BUT leaves are still green, flat, and unshriveled, and soil centers look dark/damp — evidence is mixed between drought stress and leggy overcrowded stems mechanically collapsing (day 22, no thinning possible with my actuators). No mold/pests/tipping.
+- Jar: zoomed photo shows tinted water around the shoulder, pump cable submerged, tube outlet in place pointing down over the lid — refill holding.
+- Lamp: on — correct for photoperiod.
+- Watering: deviated from observe-only ONCE — 4s pulse (8s of 60s daily cap used; water.py OK, pump plug verified OFF after). Rationale: morning entry's decision rule said persistent droop = treat as drought stress; jar is full, rails permitted, and the cost of an unnecessary pulse is far lower than 6 more dry hours if it is drought.
+- Plan for 19:22: reassess. If droop improves → it was water stress, keep routine policy. If droop is unchanged with soil damp → conclude legginess/overcrowding (mechanical), stop extra pulses, and note that thinning/support is beyond my actuators — flag to the human in the journal. 13:07 remains observe-only as the default; this was a one-time exception.
+- Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.

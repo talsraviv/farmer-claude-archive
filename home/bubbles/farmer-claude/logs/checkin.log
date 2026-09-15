@@ -524,3 +524,11 @@ Morning check-in complete (day 22). Summary:
 - **Jar:** Zoomed photo shows water still around the shoulder of the glass, pump well covered — the refill is holding. Tube outlet in place over the lid.
 - **Lamp:** On, correct for the 07:02–20:47 photoperiod.
 - Journal entry appended; no changes to standing orders.
+Check-in complete. Summary of the 13:07 visit (day 22):
+
+- **Droop watch item: not recovered.** The morning's flopped stems in the front-left and middle cells are still down ~6 hours after the 07:12 pulse. However, the close-up shows green, unshriveled leaves and damp soil centers, so the evidence is mixed between drought stress and leggy, overcrowded stems mechanically collapsing.
+- **Action taken: one-time 4-second pulse**, deviating from the usual observe-only midday. The morning entry's own decision rule said persistent droop should be treated as drought stress; the jar is full, the safety rails allowed it (8s of 60s daily cap now used, >30 min since the last pulse), and an unnecessary pulse costs far less than six more dry hours if it is drought. water.py reported OK and the pump plug was verified off afterward.
+- **Everything else normal:** lamp on (correct for photoperiod), jar water around the shoulder with the pump submerged, tube outlet in place over the lid, no mold, pests, or tipping.
+- **Plan for 19:22:** if the droop improves, it was water stress and routine policy continues; if it is unchanged with damp soil, I'll conclude it's legginess/overcrowding — which watering can't fix and thinning is beyond my actuators — and flag that to the human in the journal.
+
+Journal updated with a dated entry; no standing orders changed (the midday pulse was logged as a one-time exception).
