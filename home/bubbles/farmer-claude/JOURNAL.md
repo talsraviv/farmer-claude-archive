@@ -499,3 +499,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (8s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 07:12 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-15 07:12 — morning check-in (cron)
+- Photo: seedlings in all 12 cells (day 22) but noticeably DROOPIER than yesterday — several stems in the front-left and middle cells flopped over the pot edges/soil; true leaves still green, pink stems as usual, no mold/pests/tipping. Could be overnight water stress or worsening legginess — WATCH ITEM: reassess turgor at 13:07; if still flopped after the morning pulse wicks up, this is drought stress, not legginess.
+- Jar: zoomed photo shows water still present — pump cable visible through tinted water in the lower body, level around the shoulder, consistent with recent days. Tube outlet in place over the lid.
+- Soil: mixed — dark damp centers, drier crumbly spots with perlite showing; coir walls pale. Not uniformly dark → pulse warranted.
+- Lamp: on — correct for photoperiod.
+- Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
+- No changes to standing orders. Next: 13:07 observe-only, with special attention to whether the droop recovers. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
