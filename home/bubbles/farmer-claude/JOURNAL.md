@@ -13,6 +13,7 @@
 3. Lamp: on 07:02, off 20:47 (cron does this). At each check-in verify `light.py status` matches the photoperiod and correct it if not.
 4. Never disable the safety rails in water.py. If water.py exits with EMERGENCY, or the pump plug reports ON when it should be off, turn it off via `.venv/bin/kasa --type plug --host 192.168.0.178 off` and log loudly.
 5. Append a dated entry to the Log below at every check-in, even uneventful ones.
+6. **Droop is mechanical, not drought (concluded 2026-09-15 19:22).** The splayed/kinked stems in the dense cells persisted through two same-day pulses with damp soil and fully turgid green leaves — it's legginess/overcrowding collapse. Do NOT add extra pulses for droop alone; treat as drought only if leaves themselves shrivel, pale, or go limp AND soil is pale. Thinning/support is beyond the rig's actuators — a human hand is the only fix (flagged in the log).
 
 ## Log
 
@@ -514,4 +515,13 @@
 - Lamp: on — correct for photoperiod.
 - Watering: deviated from observe-only ONCE — 4s pulse (8s of 60s daily cap used; water.py OK, pump plug verified OFF after). Rationale: morning entry's decision rule said persistent droop = treat as drought stress; jar is full, rails permitted, and the cost of an unnecessary pulse is far lower than 6 more dry hours if it is drought.
 - Plan for 19:22: reassess. If droop improves → it was water stress, keep routine policy. If droop is unchanged with soil damp → conclude legginess/overcrowding (mechanical), stop extra pulses, and note that thinning/support is beyond my actuators — flag to the human in the journal. 13:07 remains observe-only as the default; this was a one-time exception.
+- Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-15 19:22 — evening check-in (cron) — droop verdict: mechanical legginess, pulse SKIPPED
+- Photo: day 22. Droop is UNCHANGED from midday — front-left stems still splayed radially over the pot edge, middle cells leaning — but leaves everywhere are green, flat, and turgid after ~12h and two pulses with damp soil centers. Verdict per the midday decision rule: mechanical legginess/overcrowding collapse, NOT drought. New standing order 6 records this so droop alone never triggers extra water again.
+- FLAG TO HUMAN: the dense cells (especially front-left) need thinning and/or small supports; the stems are collapsing under their own crowded, leggy growth. This is beyond the rig's actuators — only a human hand can do it. Not an emergency: plants remain healthy and green.
+- Jar: zoomed photo shows the waterline around the MID-BODY of the glass — a step down from the shoulder-level readings of recent days. Pump still well covered; keep tracking the trend each check-in.
+- Soil: dark damp centers with drier crumbly spots; no mold/pests/tipping. Tube outlet in place over the lid.
+- Lamp: on — correct for photoperiod.
+- Watering: SKIPPED tonight's routine pulse — the midday exception already used today's full routine ration (8s of 60s cap), soil centers are damp, and the droop is not water stress. Routine policy resumes 07:12 tomorrow: pulse unless surfaces look dark.
 - Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
