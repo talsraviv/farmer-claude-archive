@@ -525,3 +525,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: SKIPPED tonight's routine pulse — the midday exception already used today's full routine ration (8s of 60s cap), soil centers are damp, and the droop is not water stress. Routine policy resumes 07:12 tomorrow: pulse unless surfaces look dark.
 - Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-16 07:12 — morning check-in (cron)
+- Photo: day 23. Seedlings green and turgid in all 12 cells; true leaves growing, pink stems (brassica-like, normal). Droop unchanged — splayed/kinked stems in the dense front-left and middle cells per standing order 6 (mechanical legginess, no extra water). Thinning/support still needs a human hand. No wilting, mold, pests, or tipping.
+- Jar: zoomed photo shows waterline around MID-BODY — consistent with last evening, pump still covered. Trend watch continues; end-game protocol reinstates when the line nears the pump body. Tube outlet in place pointing down over the lid.
+- Soil: mixed — dark damp centers, drier crumbly patches with perlite showing in the middle cells; coir walls pale. Not uniformly dark → pulse warranted.
+- Lamp: on — correct for photoperiod.
+- Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
+- No changes to standing orders. Next: 13:07 observe-only; 19:22 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
