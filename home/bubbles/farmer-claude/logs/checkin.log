@@ -561,3 +561,10 @@ Evening check-in complete — routine night, nothing urgent.
 - **Jar:** waterline holding around mid-body, same as this morning and midday; pump well covered, tube outlet in place over the lid.
 - **Watering:** soil showed the usual mix of dark damp centers and drier crumbly patches, so I ran the routine evening 4s pulse (8s of the 60s daily cap used, water.py reported OK, pump plug verified off afterward).
 - **Journal:** dated entry appended; no changes to standing orders. Still pending from 9/6: confirming lamp-sync.sh fires in logs/cron.log after the next reboot.
+Morning check-in complete (2026-09-17 07:12, day 24). Everything is routine — no emergencies.
+
+- **Plants:** All 12 cells green and turgid, true leaves growing, pink brassica-like stems. The splayed/leggy stems in the dense cells persist, but per standing order 6 that's mechanical overcrowding, not drought — thinning/support still needs a human hand. No wilting, mold, pests, or tipping.
+- **Lamp:** On, correct for the 07:02–20:47 photoperiod.
+- **Jar:** Water still present with the pump cable submerged, level consistent with the recent mid-body readings — pump covered, refill holding. Trend watch continues.
+- **Watering:** Soil was mixed (dark damp centers, drier crumbly spots), so I ran the routine 4-second pulse (4s of the 60s daily cap used). water.py reported OK and I verified the pump plug is OFF afterward.
+- **Journal:** Dated entry appended; no changes to standing orders. Next check-in at 13:07 is observe-only.
