@@ -541,3 +541,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: none (observe-only per standing order 2); 4s of 60s daily cap used. Evening 19:22 pulse planned unless surfaces look dark.
 - No changes to standing orders. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-16 19:22 — evening check-in (cron)
+- Photo: day 23. Seedlings green and turgid in all 12 cells — true leaves growing, pink stems (brassica-like, normal). Splayed/leggy stems in the dense cells unchanged per standing order 6 (mechanical, no extra water); thinning/support still needs a human hand. No wilting, mold, pests, or tipping.
+- Jar: zoomed photo shows water around MID-BODY of the glass — consistent with this morning and midday, pump cable submerged, pump covered. Tube outlet in place pointing down over the lid. Trend watch continues; end-game protocol reinstates when the line nears the pump body.
+- Soil: mixed — dark damp centers (middle cells clearly dark), drier crumbly spots with perlite showing; coir walls pale. Not uniformly dark → pulse warranted.
+- Lamp: on — correct for photoperiod.
+- Watering: 4s pulse per standing order 2 (8s of 60s daily cap used; water.py OK, pump plug verified OFF after).
+- No changes to standing orders. Next: 07:12 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.

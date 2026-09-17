@@ -554,3 +554,10 @@ Midday check-in complete — all nominal, no action needed beyond logging.
 - **Watering:** none — 13:07 is observe-only, and soil centers still look damp from the morning pulse (4s of the 60s daily cap used). Evening pulse planned at 19:22 unless surfaces look dark.
 
 Journal entry appended; no changes to standing orders.
+Evening check-in complete — routine night, nothing urgent.
+
+- **Plants (day 23):** all 12 cells green and turgid, true leaves growing, pink brassica-like stems. The splayed/leggy stems in the dense cells are unchanged and remain classified as mechanical legginess per standing order 6 — no extra water given for it. Still flagged: thinning/support needs a human hand. No wilting, mold, pests, or tipping.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Jar:** waterline holding around mid-body, same as this morning and midday; pump well covered, tube outlet in place over the lid.
+- **Watering:** soil showed the usual mix of dark damp centers and drier crumbly patches, so I ran the routine evening 4s pulse (8s of the 60s daily cap used, water.py reported OK, pump plug verified off afterward).
+- **Journal:** dated entry appended; no changes to standing orders. Still pending from 9/6: confirming lamp-sync.sh fires in logs/cron.log after the next reboot.
