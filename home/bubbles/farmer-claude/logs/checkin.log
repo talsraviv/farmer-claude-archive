@@ -584,3 +584,10 @@ Evening check-in complete (2026-09-17 19:22, day 24). Everything is routine and 
 - **Jar:** Zoomed photo shows water at the recent mid-body level with the pump covered; the trend watch continues.
 - **Watering:** Soil surfaces were mixed (dark centers, drier crumbly patches), so I ran the routine 4s evening pulse — water.py reported OK, 8s of the 60s daily cap used, and I verified the pump plug is OFF afterward.
 - **Journal:** Dated entry appended; no changes to standing orders. Next check-in is 07:12 tomorrow.
+Morning check-in complete — everything nominal, routine 4s pulse delivered.
+
+- **Plants (day 25):** All 12 cells green and turgid; true leaves growing, pink brassica-like stems as usual. The splayed/leggy stems in the dense cells are unchanged — still the known mechanical legginess (standing order 6), not drought. No wilting, mold, or tipping. One tiny insect-like speck on a lower leaf in the zoom photo — not clearly a pest; I flagged it for a recheck at the 13:07 check-in.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Jar:** tinted water visible through the glass, pump cable submerged — level consistent with recent mid-body readings, pump well covered.
+- **Watering:** soil was mixed (dark damp centers, drier crumbly spots), so I ran the routine 4s morning pulse. water.py reported OK (4s of the 60s daily cap used) and I verified the pump plug is OFF afterward.
+- **Journal:** dated entry appended; no changes to standing orders. Still outstanding for a human: thinning/support in the crowded cells, and the lamp-sync.sh reboot check remains pending until the next reboot.
