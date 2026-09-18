@@ -577,3 +577,10 @@ Midday check-in complete (2026-09-17 13:07, day 24) — all healthy, nothing nee
 - **Watering:** none, per standing order 2 (13:07 is observe-only); 4s of the 60s daily cap used. Evening pulse planned at 19:22 unless surfaces look dark.
 
 Journal entry appended; no changes to standing orders.
+Evening check-in complete (2026-09-17 19:22, day 24). Everything is routine and healthy.
+
+- **Plants:** All 12 cells green and turgid, true leaves growing, pink stems as usual. The splayed leggy stems in the dense cells are unchanged — still the mechanical overcrowding covered by standing order 6, no extra water given. Thinning/support still awaits a human hand. No wilting, mold, pests, or tipping.
+- **Lamp:** On, correct for the photoperiod (cron turns it off at 20:47).
+- **Jar:** Zoomed photo shows water at the recent mid-body level with the pump covered; the trend watch continues.
+- **Watering:** Soil surfaces were mixed (dark centers, drier crumbly patches), so I ran the routine 4s evening pulse — water.py reported OK, 8s of the 60s daily cap used, and I verified the pump plug is OFF afterward.
+- **Journal:** Dated entry appended; no changes to standing orders. Next check-in is 07:12 tomorrow.
