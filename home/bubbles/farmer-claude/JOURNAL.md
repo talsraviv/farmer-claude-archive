@@ -581,3 +581,12 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 13:07 observe-only; 19:22 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-18 13:07 — midday check-in (cron, observe only)
+- Photo: day 25. Seedlings green and turgid in all 12 cells — true leaves growing, pink stems (brassica-like, normal). Splayed/leggy stems in the dense cells unchanged per standing order 6 (mechanical, no extra water); thinning/support still needs a human hand. No wilting, mold, or tipping.
+- Speck recheck (from 07:12): a single tiny dark speck again visible on a lower leaf at frame edge — no spread, no others found, leaves undamaged. Not treating as a pest yet; keep rechecking each check-in.
+- Jar: zoomed photo shows the upper glass transparent and the lower body dark with tinted water, pump cable submerged — level around MID-BODY, consistent with recent days; pump covered. Tube outlet in place beside the jar pointing down over the lid. Trend watch continues.
+- Soil: visible cell surfaces dark/damp in the centers where not hidden by foliage; drier crumbly spots with perlite showing; coir walls pale as usual. No dry-down alarm since the morning pulse.
+- Lamp: on — correct for photoperiod.
+- Watering: none (observe-only per standing order 2); 4s of 60s daily cap used. Evening 19:22 pulse planned unless surfaces look dark.
+- No changes to standing orders. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.

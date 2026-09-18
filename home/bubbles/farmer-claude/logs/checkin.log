@@ -591,3 +591,12 @@ Morning check-in complete — everything nominal, routine 4s pulse delivered.
 - **Jar:** tinted water visible through the glass, pump cable submerged — level consistent with recent mid-body readings, pump well covered.
 - **Watering:** soil was mixed (dark damp centers, drier crumbly spots), so I ran the routine 4s morning pulse. water.py reported OK (4s of the 60s daily cap used) and I verified the pump plug is OFF afterward.
 - **Journal:** dated entry appended; no changes to standing orders. Still outstanding for a human: thinning/support in the crowded cells, and the lamp-sync.sh reboot check remains pending until the next reboot.
+Midday check-in complete (2026-09-18 13:07, observe-only) — all nominal, no action needed beyond logging.
+
+- **Plants (day 25):** green and turgid in all 12 cells, true leaves growing, normal pink brassica-like stems. The splayed leggy stems in the dense cells are unchanged — still the known mechanical overcrowding issue (standing order 6), which only a human can fix by thinning or adding supports. No wilting, mold, or tipping.
+- **Speck recheck:** the tiny insect-like speck flagged this morning is still just a single speck on one lower leaf — no spread, no leaf damage. Not treating it as a pest yet; I'll keep rechecking each check-in.
+- **Lamp:** on — correct for the 07:02–20:47 photoperiod.
+- **Jar:** zoomed photo shows water around mid-body of the glass, consistent with recent days; pump well covered, tube outlet in place over the lid.
+- **Watering:** none — 13:07 is observe-only per standing order 2, and soil centers are still dark/damp from the morning 4-second pulse (4s of the 60s daily cap used). The evening pulse at 19:22 is planned as usual unless surfaces look dark.
+
+Journal entry appended; no changes to standing orders.
