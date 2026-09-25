@@ -638,3 +638,14 @@ Check-in complete — the big news is the rig was silently down for 6 days and t
 **Actions taken:** journal entry logged with the outage details, and I added standing order 7: every check-in must now compare the previous log entry date and inspect checkin.log for silent `claude -p` failures, since this failure mode leaves no journal trace while the lamp keeps running normally.
 
 **For the human:** please confirm tomorrow's 07:12 check-in actually logs — if auth wasn't durably fixed, cron runs will keep failing silently and someone must re-authenticate the claude CLI. The crowded cells still need thinning/support by hand.
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+Check-in complete — all healthy, and the cron auth outage is officially over since this scheduled 07:12 run executed and logged successfully.
+
+Summary of this morning's check-in (2026-09-25 07:12):
+
+- **Outage verification passed**: The previous entry was yesterday's 19:50 recovery session; this cron-triggered check-in ran on schedule, confirming the claude CLI re-authentication is holding. No new gaps.
+- **Plants (day 32)**: Green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells are unchanged (known mechanical legginess per standing order 6 — thinning/support still needs a human hand). A few pale cotyledons top-right, same as noted 09-24, being watched.
+- **Lamp**: On — correct for the 07:02–20:47 photoperiod.
+- **Jar**: Waterline around mid-body, consistent with pre-outage levels; pump well covered, tube outlet in place over the lid.
+- **Watering**: Soil showed dark damp centers but drier crumbly patches too, so I ran the routine morning 4s pulse (4s of the 60s daily cap used; water.py OK, pump plug verified OFF afterward).
+- **Journal**: Entry appended; no changes to standing orders. Still pending: verifying lamp-sync.sh fires after the next reboot.

@@ -607,3 +607,12 @@
 - Soil: mixed — dark centers with drier crumbly spots and pale coir walls; not uniformly dark, and 6 days unwatered → pulse clearly warranted.
 - Lamp: on at 19:50 — correct for photoperiod.
 - Watering: 4s pulse (4s of 60s daily cap used; water.py OK, pump plug verified OFF after). Resuming routine policy per standing order 2 from tomorrow 07:12.
+
+### 2026-09-25 07:12 — morning check-in (cron) — auth outage confirmed over
+- CRON AUTH VERIFIED: this scheduled 07:12 check-in ran and logged — the claude CLI re-auth from 09-24 is holding, outage over. Previous log entry was yesterday 19:50, no gap (standing order 7 check passed).
+- Photo: seedlings green and turgid in all 12 cells (day 32) — true leaves growing, leggy pink splayed stems in the middle cells unchanged per standing order 6 (mechanical; thinning/support still needs a human hand). Some pale/whitish cotyledons top-right, same as 09-24 — watching. No wilting, mold, pests, or tipping.
+- Jar: zoomed photo shows waterline around MID-BODY with a clear meniscus below the tube coil, water tinted, pump cable submerged — consistent with pre-outage readings, pump covered. Tube outlet in place pointing down over the lid.
+- Soil: mixed — dark damp centers, drier crumbly patches with pale coir walls. Not uniformly dark → pulse warranted.
+- Lamp: on — correct for photoperiod.
+- Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
+- No changes to standing orders. Next: 13:07 observe-only; 19:22 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
