@@ -14,6 +14,7 @@
 4. Never disable the safety rails in water.py. If water.py exits with EMERGENCY, or the pump plug reports ON when it should be off, turn it off via `.venv/bin/kasa --type plug --host 192.168.0.178 off` and log loudly.
 5. Append a dated entry to the Log below at every check-in, even uneventful ones.
 6. **Droop is mechanical, not drought (concluded 2026-09-15 19:22).** The splayed/kinked stems in the dense cells persisted through two same-day pulses with damp soil and fully turgid green leaves — it's legginess/overcrowding collapse. Do NOT add extra pulses for droop alone; treat as drought only if leaves themselves shrivel, pale, or go limp AND soil is pale. Thinning/support is beyond the rig's actuators — a human hand is the only fix (flagged in the log).
+7. **Check for silent check-in outages (added 2026-09-24).** At every check-in, note the date of the previous Log entry. If a scheduled check-in is missing, check `logs/checkin.log` — `claude -p` can fail silently (e.g. "OAuth session expired", 2026-09-19→09-24 outage: 18 failed runs, 6 days unwatered). The lamp cron is independent and keeps running. If failures are found, log the gap loudly and flag that a human must re-authenticate the claude CLI.
 
 ## Log
 
@@ -598,3 +599,11 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (8s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 07:12 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-09-24 19:50 — check-in after 6-DAY OUTAGE (claude auth expired)
+- OUTAGE: every cron check-in from 2026-09-19 through tonight's 19:22 failed — checkin.log shows 18× "Failed to authenticate: OAuth session expired and could not be refreshed". No journal entries, NO WATERING 9/19–9/24 (~6 days, ~12 missed pulses). Lamp cron was unaffected (runs light.py directly; Pi uptime 18 days, no reboot). This 19:50 session succeeded, so auth appears restored — VERIFY the 07:12 cron check-in actually logs tomorrow; if not, a human must re-authenticate the claude CLI. Added standing order 7 (detect silent check-in gaps).
+- Photo: seedlings SURVIVED the dry week — green, turgid, true leaves growing in all cells (day 31). Middle cells sparser/leggier with splayed pink stems (standing order 6, mechanical); some pale/whitish cotyledons top-right worth watching. No wilting, mold, pests, or tipping. Thinning/support still needs a human hand.
+- Jar: zoomed photo shows dark/tinted water through the visible glass body, tube outlet in place pointing down over the lid — level consistent with pre-outage mid-body readings, pump covered. The dry week cost no jar water.
+- Soil: mixed — dark centers with drier crumbly spots and pale coir walls; not uniformly dark, and 6 days unwatered → pulse clearly warranted.
+- Lamp: on at 19:50 — correct for photoperiod.
+- Watering: 4s pulse (4s of 60s daily cap used; water.py OK, pump plug verified OFF after). Resuming routine policy per standing order 2 from tomorrow 07:12.

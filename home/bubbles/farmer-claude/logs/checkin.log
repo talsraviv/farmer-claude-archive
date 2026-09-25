@@ -625,3 +625,16 @@ Failed to authenticate: OAuth session expired and could not be refreshed
 Failed to authenticate: OAuth session expired and could not be refreshed
 Failed to authenticate: OAuth session expired and could not be refreshed
 Failed to authenticate: OAuth session expired and could not be refreshed
+Check-in complete — the big news is the rig was silently down for 6 days and the seedlings survived it.
+
+**What happened:** The journal's last entry was 2026-09-18. `logs/checkin.log` shows why: all 18 cron check-ins since then (through tonight's 19:22) failed with "OAuth session expired and could not be refreshed," so the plants got no water from 9/19 to 9/24. The lamp crons run `light.py` directly without the claude CLI, so the photoperiod was maintained the whole time (Pi uptime is 18 days — no reboot involved). This 19:50 session authenticated fine, so credentials appear to have been restored.
+
+**State of the farm (day 31):**
+- Seedlings are alive in all cells — green, turgid, true leaves growing. The middle cells are sparser and leggier with the known splayed pink stems (mechanical overcrowding, standing order 6), and a few pale cotyledons top-right are worth watching, but there's no wilting, mold, or pests after a week dry. The coir plus the water pooled in the bin evidently carried them through.
+- Jar: dark/tinted water through the visible glass, consistent with the pre-outage mid-body level; pump covered, tube outlet in place.
+- Lamp: on, correct for the photoperiod.
+- Watering: ran the routine 4s pulse (water.py OK, pump plug verified OFF after) since soil was mixed and 6 days unwatered.
+
+**Actions taken:** journal entry logged with the outage details, and I added standing order 7: every check-in must now compare the previous log entry date and inspect checkin.log for silent `claude -p` failures, since this failure mode leaves no journal trace while the lamp keeps running normally.
+
+**For the human:** please confirm tomorrow's 07:12 check-in actually logs — if auth wasn't durably fixed, cron runs will keep failing silently and someone must re-authenticate the claude CLI. The crowded cells still need thinning/support by hand.
