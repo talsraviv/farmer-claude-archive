@@ -674,3 +674,13 @@ Morning check-in complete (2026-09-26 07:12, day 33) — all routine, no emergen
 - **Lamp:** on — correct for the 07:02–20:47 photoperiod.
 - **Watering:** soil was mixed (dark damp centers, drier crumbly patches), not uniformly dark, so I ran the routine 4-second morning pulse. water.py reported OK (4s of the 60s daily cap used) and I verified the pump plug is off.
 - **Journal:** dated entry appended. Next check-in is 13:07, observe-only.
+Midday check-in complete — all nominal, nothing urgent.
+
+- **Continuity:** previous log entry was this morning's 07:12 — no gap, so the cron auth that failed silently last week is still holding (standing order 7 check passed).
+- **Plants (day 33):** green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells are unchanged — known mechanical legginess per standing order 6, not drought. The pale cotyledons top-right are the same as recent days with no spread. No wilting, mold, pests, or tipping.
+- **Jar:** zoomed photo shows tinted water through the glass with the pump cable submerged — level consistent with recent mid-body readings, pump well covered. Tube outlet in place over the lid.
+- **Soil:** dark/damp centers with the usual drier crumbly spots; no dry-down alarm since the morning pulse.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Watering:** none — 13:07 is observe-only per standing order 2. The evening 19:22 pulse is planned unless surfaces look dark then.
+
+Journal entry appended; no changes to standing orders. The standing human flags remain: the dense cells still need thinning/support by hand, and lamp-sync.sh still awaits verification after the next reboot.
