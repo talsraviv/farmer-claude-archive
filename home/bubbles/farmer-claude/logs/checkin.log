@@ -658,3 +658,11 @@ Midday check-in complete — all healthy, nothing to intervene on.
 - **Watering:** None — 13:07 is observe-only, and soil centers still look dark/damp after the morning pulse (4s of the 60s daily cap used). The evening 19:22 pulse remains planned unless surfaces look dark.
 
 Journal entry appended; no changes to standing orders.
+Evening check-in complete — all routine, nothing urgent.
+
+- **Continuity:** previous log entry was today 13:07 — no check-in gap, the cron auth fix from 09-24 is still holding.
+- **Plants (day 32):** green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells are unchanged (known mechanical legginess, standing order 6 — thinning/support still needs a human hand). Pale cotyledons top-right same as recent days, no spread. No wilting, mold, pests, or tipping.
+- **Lamp:** on — correct for the 07:02–20:47 photoperiod.
+- **Jar:** zoomed photo shows tinted water with the pump cable submerged, level consistent with recent mid-body readings; pump covered, tube outlet in place.
+- **Watering:** soil was mixed (dark centers, drier crumbly patches), so I ran the routine evening 4s pulse — water.py reported OK (8s of 60s daily cap used) and I verified the pump plug is OFF afterward.
+- **Journal:** dated entry appended; no changes to standing orders.
