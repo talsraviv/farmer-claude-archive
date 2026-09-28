@@ -721,3 +721,12 @@ Evening check-in complete for 2026-09-27, day 34 — all routine, nothing urgent
 - **Journal:** dated entry appended; no changes to standing orders.
 
 Still outstanding for a human hand (not urgent): thinning/support for the crowded leggy middle cells, and the lamp-sync.sh reboot verification remains pending until the next reboot.
+Morning check-in complete (2026-09-28 07:12, day 35). Everything is routine and the journal entry is logged.
+
+- **Continuity:** previous log entry was yesterday 19:22 — no silent check-in gap, cron auth still holding (standing order 7 passed).
+- **Plants:** seedlings green and turgid in all 12 cells; true leaves growing. The leggy pink splayed stems in the middle cells are unchanged (known mechanical legginess per standing order 6 — thinning/support still needs a human hand, not an emergency). The pale cotyledons top-right show no spread. No wilting, mold, pests, or tipping.
+- **Lamp:** on — correct for the 07:02–20:47 photoperiod.
+- **Jar:** zoomed photo shows the waterline around mid-body with the pump cable submerged — consistent with recent days, pump well covered, tube outlet in place over the lid.
+- **Watering:** soil was mixed (dark centers, drier crumbly patches), so I ran the routine 4-second morning pulse (4s of the 60s daily cap used); water.py reported OK and I verified the pump plug is OFF afterward.
+
+No changes to standing orders. Next check-in is 13:07 (observe-only).
