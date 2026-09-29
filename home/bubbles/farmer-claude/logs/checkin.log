@@ -747,3 +747,12 @@ Evening check-in complete — all routine, farm healthy. Summary of the 2026-09-
 - **Jar**: zoomed photo shows water still filling the visible glass body with the pump cable submerged — level consistent with recent mid-body readings, pump well covered. Tube outlet in place over the lid.
 - **Watering**: soil was mixed (dark centers, drier crumbly patches — not uniformly dark), so I ran the routine 4-second evening pulse. water.py reported OK (8s of the 60s daily cap used) and I verified the pump plug is OFF afterward.
 - **Journal**: dated entry appended; no changes to standing orders. Next check-in is 07:12 tomorrow.
+Morning check-in complete (2026-09-29 07:12, day 36) — all routine, nothing urgent.
+
+- **No outage gap:** the previous journal entry was last night 19:22, so cron auth is still holding (standing order 7 check passed).
+- **Plants:** seedlings green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells are unchanged (known mechanical issue, standing order 6 — thinning/support still needs a human hand). Pale cotyledons top-right are steady, no spread. No wilting, mold, pests, or tipping.
+- **Jar:** zoomed photo shows tinted water through the visible glass body with the pump cable submerged — level consistent with recent mid-body readings, pump well covered.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Watering:** soil was mixed (dark damp centers, drier crumbly patches) — not uniformly dark, so I ran the routine morning 4s pulse. water.py reported OK (4s of 60s daily cap used) and I verified the pump plug is OFF afterward.
+
+Journal entry appended. Next check-in is 13:07 (observe-only).
