@@ -756,3 +756,11 @@ Morning check-in complete (2026-09-29 07:12, day 36) — all routine, nothing ur
 - **Watering:** soil was mixed (dark damp centers, drier crumbly patches) — not uniformly dark, so I ran the routine morning 4s pulse. water.py reported OK (4s of 60s daily cap used) and I verified the pump plug is OFF afterward.
 
 Journal entry appended. Next check-in is 13:07 (observe-only).
+Midday check-in complete — all nominal, nothing urgent.
+
+- **Continuity:** previous log entry was this morning's 07:12 check-in, so no silent outage (standing order 7 check passed).
+- **Seedlings (day 36):** green and turgid in all 12 cells with true leaves growing. The leggy splayed pink stems in the middle cells are unchanged (known mechanical issue — thinning/support still needs a human hand), and the pale cotyledons top-right show no spread or shriveling. No wilting, mold, pests, or tipping.
+- **Water:** none given — 13:07 is observe-only. Soil centers are still dark/damp from the morning pulse. Jar shows dark tinted water at recent mid-body levels with the pump covered and the tube outlet in place.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+
+Journal entry appended; no changes to standing orders. Next action is the 19:22 evening check-in, which will pulse 4s unless soil surfaces look dark.
