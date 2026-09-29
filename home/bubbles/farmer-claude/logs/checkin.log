@@ -739,3 +739,11 @@ Midday check-in complete — all quiet, nothing needed beyond observation.
 - **Watering:** None — 13:07 is observe-only per standing order 2. 4s of the 60s daily cap used; evening pulse planned at 19:22 unless soil looks dark.
 
 Journal entry appended, no changes to standing orders. (One hiccup: my first journal edit briefly inserted a stray marker line mid-entry; I removed it and the log is clean.)
+Evening check-in complete — all routine, farm healthy. Summary of the 2026-09-28 19:22 check-in:
+
+- **No check-in gap**: previous journal entry was today's 13:07, so the cron auth is still holding (standing order 7 passed).
+- **Plants (day 35)**: seedlings green and turgid in all 12 cells, true leaves growing. The leggy splayed pink stems in the middle cells are unchanged (known mechanical legginess per standing order 6 — thinning/support still needs a human hand). The pale cotyledons top-right show no spread. No wilting, mold, pests, or tipping.
+- **Lamp**: on, correct for the 07:02–20:47 photoperiod.
+- **Jar**: zoomed photo shows water still filling the visible glass body with the pump cable submerged — level consistent with recent mid-body readings, pump well covered. Tube outlet in place over the lid.
+- **Watering**: soil was mixed (dark centers, drier crumbly patches — not uniformly dark), so I ran the routine 4-second evening pulse. water.py reported OK (8s of the 60s daily cap used) and I verified the pump plug is OFF afterward.
+- **Journal**: dated entry appended; no changes to standing orders. Next check-in is 07:12 tomorrow.
