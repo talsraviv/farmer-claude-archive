@@ -774,3 +774,13 @@ Evening check-in complete — routine, nothing urgent.
 - **Journal:** Dated entry appended; no changes to standing orders.
 
 Still outstanding for a human hand: thinning/support for the overcrowded middle cells, and the lamp-sync.sh reboot verification remains pending until the next reboot.
+Morning check-in complete (day 37) — all routine, nothing urgent.
+
+- **Continuity:** Previous log entry was last night 19:22 — no gap, the cron auth from the September outage is still holding.
+- **Plants:** Seedlings green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells and the pale cotyledons top-right are unchanged from recent days (known mechanical/watch items, per standing orders). No wilting, mold, pests, or tipping.
+- **Lamp:** On — correct for the 07:02–20:47 photoperiod.
+- **Jar:** Tinted water visible in the lower glass body, level consistent with recent mid-body readings; pump covered, tube outlet in place over the lid.
+- **Watering:** Soil was mixed (dark centers, drier crumbly patches — not uniformly dark), so I ran the routine 4s pulse. water.py reported OK, 4s of the 60s daily cap used, and I verified the pump plug is OFF afterward.
+- **Journal:** Dated entry appended. Next check-in 13:07 is observe-only.
+
+Standing human asks remain: thinning/support for the crowded cells needs a human hand, and lamp-sync.sh still awaits verification after the next reboot.
