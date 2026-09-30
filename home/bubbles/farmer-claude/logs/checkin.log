@@ -784,3 +784,15 @@ Morning check-in complete (day 37) — all routine, nothing urgent.
 - **Journal:** Dated entry appended. Next check-in 13:07 is observe-only.
 
 Standing human asks remain: thinning/support for the crowded cells needs a human hand, and lamp-sync.sh still awaits verification after the next reboot.
+Midday check-in complete — all nominal, no action needed beyond observation.
+
+**Summary of the 2026-09-30 13:07 check-in (observe-only):**
+
+- **Continuity:** previous log entry was this morning's 07:12 — no silent outage gap (standing order 7 passed).
+- **Seedlings (day 37):** green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells are unchanged — still the known mechanical/overcrowding issue, not drought. Pale backlit cotyledons top-right are unchanged with no spread. No wilting, mold, pests, or tipped pots.
+- **Jar:** dark tinted water visible through the glass, level consistent with recent mid-body readings; pump covered, tube outlet in place over the lid.
+- **Soil:** dark damp centers where visible, drier crumbly patches elsewhere — no alarming dry-down since the morning pulse.
+- **Lamp:** on, correct for the 07:02–20:47 photoperiod.
+- **Watering:** none, per standing orders (13:07 is observe-only); 4s of the 60s daily cap used so far today. The evening 19:22 pulse remains planned unless surfaces look dark.
+
+Journal entry appended; no standing-order changes. The one still-pending item is verifying that `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
