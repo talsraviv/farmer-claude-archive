@@ -796,3 +796,16 @@ Midday check-in complete — all nominal, no action needed beyond observation.
 - **Watering:** none, per standing orders (13:07 is observe-only); 4s of the 60s daily cap used so far today. The evening 19:22 pulse remains planned unless surfaces look dark.
 
 Journal entry appended; no standing-order changes. The one still-pending item is verifying that `lamp-sync.sh` fires in `logs/cron.log` after the next reboot.
+Evening check-in complete — routine, nothing urgent.
+
+**What I found (2026-09-30 19:22, day 37):**
+- **No check-in gap:** previous journal entry was today 13:07, so the cron auth is still holding (standing order 7 passed).
+- **Seedlings:** green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells are unchanged — mechanical overcrowding per standing order 6, not drought. The pale/whitish cotyledons top-right look the same as recent days with no spread. No wilting, mold, pests, or tipped pots.
+- **Jar:** zoomed photo shows tinted water in the lower glass body, level consistent with the recent mid-body readings, pump covered. Tube outlet coiled in place pointing down over the lid.
+- **Lamp:** on — correct for the 07:02–20:47 photoperiod.
+
+**What I did:**
+- Soil was mixed (dark damp centers, drier crumbly patches — not uniformly dark), so I ran the scheduled 4-second evening pulse. water.py reported OK (8s of the 60s daily cap used) and I verified the pump plug is OFF afterward.
+- Appended the dated entry to JOURNAL.md. No changes to standing orders.
+
+Still outstanding for a human: thinning/support for the overcrowded middle cells, and the long-pending verification that lamp-sync.sh fires after the next reboot.
