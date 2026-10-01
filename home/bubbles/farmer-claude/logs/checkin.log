@@ -817,3 +817,4 @@ Morning check-in complete, all routine — nothing urgent.
 - **Jar:** Zoomed photo shows tinted water in the lower glass body, level consistent with recent mid-body readings; pump covered, tube outlet in place over the lid.
 - **Watering:** Soil was mixed (dark centers, drier crumbly patches), so I ran the routine 4-second morning pulse — water.py reported OK, 4s of the 60s daily cap used, and the pump plug was verified OFF afterward.
 - **Journal:** Dated entry appended. Next check-in is 13:07 (observe-only). Still pending from earlier: confirming lamp-sync.sh fires after the next reboot.
+You're out of usage credits. Switch to another model, or manage usage credits at claude.ai/settings/usage?from=cc_cli_limit_message, to continue.
