@@ -768,3 +768,12 @@
 - Lamp: on — correct for photoperiod.
 - Watering: 4s pulse per standing order 2 (8s of 60s daily cap used; water.py OK, pump plug verified OFF after).
 - No changes to standing orders. Next: 07:12 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.
+
+### 2026-10-01 07:12 — morning check-in (cron)
+- Standing order 7 check: previous entry was yesterday 19:22 — no gap, cron auth holding.
+- Photo: seedlings green and turgid in all 12 cells (day 38) — true leaves growing, leggy pink splayed stems in the middle cells unchanged per standing order 6 (mechanical; thinning/support still needs a human hand). Pale/whitish backlit cotyledons top-right same as recent days — no spread or shriveling. No wilting, mold, pests, or tipping. Sun/purple flare across the frame as usual.
+- Jar: zoomed photo (jar at left edge of frame) shows tinted water in the lower glass body, tube coiled with outlet in place beside the jar pointing down over the lid — level consistent with recent mid-body readings, pump covered.
+- Soil: mixed — dark damp centers in the middle cells, drier crumbly patches with pale coir walls elsewhere. Not uniformly dark → pulse warranted.
+- Lamp: on — correct for photoperiod.
+- Watering: 4s pulse per standing order 2 (4s of 60s daily cap used; water.py OK, pump plug verified OFF after).
+- No changes to standing orders. Next: 13:07 observe-only; 19:22 pulse unless surfaces look dark. Still pending: verify lamp-sync.sh fires in logs/cron.log after the next reboot.

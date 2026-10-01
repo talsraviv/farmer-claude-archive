@@ -809,3 +809,11 @@ Evening check-in complete — routine, nothing urgent.
 - Appended the dated entry to JOURNAL.md. No changes to standing orders.
 
 Still outstanding for a human: thinning/support for the overcrowded middle cells, and the long-pending verification that lamp-sync.sh fires after the next reboot.
+Morning check-in complete, all routine — nothing urgent.
+
+- **Continuity:** Previous log entry was yesterday 19:22, so no silent check-in gap (standing order 7 passed).
+- **Seedlings (day 38):** Green and turgid in all 12 cells, true leaves growing. The leggy pink splayed stems in the middle cells are unchanged (known mechanical issue, not drought) and the pale backlit cotyledons top-right show no spread. No wilting, mold, pests, or tipping.
+- **Lamp:** On at 07:12 — correct for the 07:02–20:47 photoperiod.
+- **Jar:** Zoomed photo shows tinted water in the lower glass body, level consistent with recent mid-body readings; pump covered, tube outlet in place over the lid.
+- **Watering:** Soil was mixed (dark centers, drier crumbly patches), so I ran the routine 4-second morning pulse — water.py reported OK, 4s of the 60s daily cap used, and the pump plug was verified OFF afterward.
+- **Journal:** Dated entry appended. Next check-in is 13:07 (observe-only). Still pending from earlier: confirming lamp-sync.sh fires after the next reboot.
