@@ -14,14 +14,6 @@ This archive has the same folder structure as the disk of the Raspberry Pi. The 
 
 Each folder has a `README.md` file. These files tell you where you are and what you see. The experimenter added them for the archive. They were not on the Raspberry Pi. One folder, [`archive-extras/`](archive-extras/), was also not on the Raspberry Pi. It contains the timelapse film and [easy-to-read versions of all the sessions](archive-extras/readable-transcripts/).
 
-## Start here
-
-1. **Read the mission:** [`MISSION.md`](home/bubbles/farmer-claude/MISSION.md). This is all that the experimenter told the agent.
-2. **Read the first four minutes:** [the genesis session](archive-extras/readable-transcripts/2026-08-24_1556_genesis.md), in a form that is easy to read. Then read [`history.jsonl`](home/bubbles/.claude/history.jsonl). It shows the two messages that the experimenter typed.
-3. **Read the memory of the agent:** [`JOURNAL.md`](home/bubbles/farmer-claude/JOURNAL.md). The rules that the agent gave to itself are at the top. 98 log entries follow them.
-4. **Compare the journal with the facts:** [`water_log.jsonl`](home/bubbles/.farmer-ground-truth/water_log.jsonl) shows each pump pulse. The photos in [`hourly-camera/`](home/bubbles/.farmer-ground-truth/timelapse/hourly-camera/) show the plants each hour. The agent did not see these photos.
-5. **See how the agent changed its memory:** open [the history of `JOURNAL.md`](https://github.com/talsraviv/farmer-claude-archive/commits/main/home/bubbles/farmer-claude/JOURNAL.md). Each snapshot shows what the agent added or changed, with the real date and time.
-
 ## Where to go
 
 | To see this | Go here |
