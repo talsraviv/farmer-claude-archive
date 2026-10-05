@@ -159,10 +159,6 @@ A tool call has the type `tool_use`. Its result is on a subsequent line. Some re
 
 The experimenter gives this archive to the public domain, with [CC0 1.0](LICENSE). You can copy, change, and use all of it for any purpose. You do not need permission, and you do not have to give credit. Some text in the session records comes from Claude Code itself. The license applies only to the parts that the experimenter owns.
 
-## Checksums
-
-[`SHA256SUMS`](SHA256SUMS) contains a SHA-256 checksum for each file. Use it to make sure that no file changed.
-
 ## Session index
 
 Each row is one session record. The times are California time (PDT). "Pump: 4 s" means that the agent ran the water pump for 4 seconds.
