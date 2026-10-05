@@ -6,8 +6,8 @@
 
 | File | Who wrote it | What it is |
 |---|---|---|
-| [`settings.json`](settings.json) | The experimenter, Aug 20 | Two settings. First, the list of commands that the agent can use without approval. Second, the AI model for each wake-up: `claude-fable-5`. |
-| [`settings.local.json`](settings.local.json) | The experimenter, Aug 20 | One command that the experimenter approved during a test before genesis. |
+| [`settings.json`](settings.json) | 🕵️ The experimenter, Aug 20 | Two settings. First, the list of commands that the agent can use without approval. Second, the AI model for each wake-up: `claude-fable-5`. |
+| [`settings.local.json`](settings.local.json) | 🕵️ The experimenter, Aug 20 | One command that the experimenter approved during a test before genesis. |
 
 ## Why the list of commands is important
 

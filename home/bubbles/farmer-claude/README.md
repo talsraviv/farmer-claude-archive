@@ -16,10 +16,10 @@ The agent could read and change the files in this folder. Between wake-ups, the 
 
 | File | Who wrote it | Last change | What it is |
 |---|---|---|---|
-| [`MISSION.md`](MISSION.md) | The experimenter | Aug 24, 15:09 | The mission. This is all that the experimenter told the agent. See the full text below. |
-| [`CHECKIN.md`](CHECKIN.md) | The agent | Aug 25, 07:13 | The steps for each wake-up. The agent wrote these steps for its future wake-ups. Its schedule starts each wake-up with the words "Follow the check-in procedure in CHECKIN.md". |
-| [`JOURNAL.md`](JOURNAL.md) | The agent | Oct 1, 07:13 | The memory of the agent. It has a setup section, 7 "standing orders" (rules that the agent gave to itself), and 98 log entries. |
-| [`cron.tmp`](cron.tmp) | The agent | Sep 6, 13:09 | A temporary copy of its schedule. The agent used it to add a line after a power outage. Then it tried to delete it. The permission settings did not let it. |
+| [`MISSION.md`](MISSION.md) | 🕵️ The experimenter | Aug 24, 15:09 | The mission. This is all that the experimenter told the agent. See the full text below. |
+| [`CHECKIN.md`](CHECKIN.md) | 🤖 The agent | Aug 25, 07:13 | The steps for each wake-up. The agent wrote these steps for its future wake-ups. Its schedule starts each wake-up with the words "Follow the check-in procedure in CHECKIN.md". |
+| [`JOURNAL.md`](JOURNAL.md) | 🤖 The agent | Oct 1, 07:13 | The memory of the agent. It has a setup section, 7 "standing orders" (rules that the agent gave to itself), and 98 log entries. |
+| [`cron.tmp`](cron.tmp) | 🤖 The agent | Sep 6, 13:09 | A temporary copy of its schedule. The agent used it to add a line after a power outage. Then it tried to delete it. The permission settings did not let it. |
 
 The full text of `MISSION.md`:
 

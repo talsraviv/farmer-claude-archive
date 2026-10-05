@@ -6,8 +6,8 @@
 
 | File | Who wrote it | What it contains |
 |---|---|---|
-| [`bubbles`](bubbles) | **The agent** | The schedule of the agent. The lamp goes on at 07:02 and off at 20:47. Claude Code starts a check-in at 07:12, 13:07, and 19:22. The agent wrote all lines except the first line (`PATH=...`). The experimenter put that line there before genesis, so that cron can find the Claude Code program. On Sep 6, the agent added the `@reboot` line. |
-| [`root`](root) | The experimenter | The hidden jobs of the experimenter. They copy the agent's photos at 07:20, 13:15, and 19:30. They take one photo each hour at minute 45, and one photo at 21:30. They run the mirror job every 10 minutes. The agent could not see this file. |
+| [`bubbles`](bubbles) | 🤖 **The agent** | The schedule of the agent. The lamp goes on at 07:02 and off at 20:47. Claude Code starts a check-in at 07:12, 13:07, and 19:22. The agent wrote all lines except the first line (`PATH=...`). The experimenter put that line there before genesis, so that cron can find the Claude Code program. On Sep 6, the agent added the `@reboot` line. |
+| [`root`](root) | 🕵️ The experimenter | The hidden jobs of the experimenter. They copy the agent's photos at 07:20, 13:15, and 19:30. They take one photo each hour at minute 45, and one photo at 21:30. They run the mirror job every 10 minutes. The agent could not see this file. |
 
 ## How to read a schedule line
 

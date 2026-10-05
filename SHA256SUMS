@@ -1,6 +1,6 @@
 cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e  ./.gitignore
 7179683e8000e6bdc9bbc60d85edf0a4ac8e76f951857f54fcb775d5886f1309  ./LICENSE
-ab06e6aef35b32034e2238ee91346a9a747fb24777780b4a607f0786b8074ee1  ./README.md
+c5247c59200a0c408d723222fc73d0ee20658c27778ab1d16a960b11fd975855  ./README.md
 9c1efa4f6d1e303a2da2b8401d62c4dfd318fcae924faa7f41954b0246975588  ./archive-extras/README.md
 55b60b6370453fb8de6b5f512892d8c8a641239c80e9d287cc7a010d9271af8c  ./archive-extras/readable-transcripts/2026-08-20_1249_pre-genesis-test.md
 6d24a13de21f0fbc612a7406cb5b756368f3b7acd6c949260a5dc1bb3d11ca43  ./archive-extras/readable-transcripts/2026-08-20_1252_pre-genesis-test.md
@@ -239,7 +239,7 @@ ce01bd84f2fec45f3be27403f90186ef8380a6d2c23751aa7e3222d1d77341f6  ./archive-extr
 a1bc0f73c4d5df2a94a3f9f70b427e24eb4abd0d59f3cddd090ecfbdd83e6889  ./archive-extras/timelapse.gif
 63f00d23268a950044216652ef6807d0b1be96f79d077d65fc743228e9202833  ./etc/README.md
 e631903437315421abb06eca0d33b388d7636161e7c98688ef31cc3f0be86bd1  ./etc/nginx/README.md
-15d5cccdc9158acd6a9533287927ff86a3c2ccad377d5d0592eb0e8a3c379d85  ./etc/nginx/sites-available/README.md
+4d16b877ed2c8ed1cb958b3acbdd481b6373fa7e298d6e40d292c3f3d7fecd7f  ./etc/nginx/sites-available/README.md
 958329845bde94813c32e1109cac94d0e8e77f6eb1b1f72ddcb4d4b8ffa246e1  ./etc/nginx/sites-available/farmer
 0d03c31570f9d0497ad6ed3d06bc3844dc82e34ed5a6466e3bc328ef86d4a4aa  ./home/README.md
 ecfde258adfc97524973ac1e672ac47f0bd5f7882a4b6ccf7acfcedc1dde9fbc  ./home/bubbles/.bash_history
@@ -1172,13 +1172,13 @@ f91a648834c0829a25dac469396895a94850692b2063eac6df1cd317b6de6a9a  ./home/bubbles
 7c4aa1017454ef9f8e53ed8006f7ca2d96509fb673135e89c6e6800c2d36ddac  ./home/bubbles/.farmer-ground-truth/water_log.jsonl
 b05e025f3ccfba6cfa84a945d11f8765234034c3a005065721c7bf5a69946e97  ./home/bubbles/.farmer-ground-truth/water_state.json
 e31e171604390ec4adf410d84f75ca56749830bf3e91e8ffd36379016f9aad64  ./home/bubbles/README.md
-7d4c3a6a218a2f33913e957a8d20f19d738fa152a76a98cb12857bbf2cae0153  ./home/bubbles/farmer-claude/.claude/README.md
+2b9bf7830575b15453b276fe89f9757e42308f9399f1d8aca190fde93b438248  ./home/bubbles/farmer-claude/.claude/README.md
 10fd0143709c8b153cd78122443fdd7cf82bf8d783f27914ec7185262d2fba22  ./home/bubbles/farmer-claude/.claude/settings.json
 4636b258cd6ce7d2ced28359242185c903149297b136456ae747ff4efea0eade  ./home/bubbles/farmer-claude/.claude/settings.local.json
 a8529029bfc61ea3bc966c687e3ddbcf3136182d57219518c84518ca8fbd92df  ./home/bubbles/farmer-claude/CHECKIN.md
 526e020c4be6d4237b5608cde413938f604a63b6aee0b95379737a4377b3b587  ./home/bubbles/farmer-claude/JOURNAL.md
 fa0526c2c1ff08b154804aeda4918c4f48d92fd36d5fb61d9f6bde37dbde3681  ./home/bubbles/farmer-claude/MISSION.md
-a1510d0e454047e53432e66ce0510b3fcaf7c60649aa96d7af6f089d5a438fca  ./home/bubbles/farmer-claude/README.md
+538bc8f0dab6655b5bf73bcabea47e6afc3d86bd01c344cb8065472dd9c7d97f  ./home/bubbles/farmer-claude/README.md
 83d04b395ce38506c91c14a8503c80c2b8fc003fb35e3cc82c9213c5a5f1615d  ./home/bubbles/farmer-claude/checkin-after.jpg
 1c8b9e1a1658189779283fa8a5627d189a4a06c6ebd0cb97b029da354fbdfe05  ./home/bubbles/farmer-claude/checkin-post.jpg
 9a5a4e39871ef282fafca6d86859893a35f72d76fd8994981ed41a7c73a8ff83  ./home/bubbles/farmer-claude/checkin.jpg
@@ -1193,7 +1193,7 @@ eed4f7c554b310a75b837631a8840be1869cc9d097636f14a2e82c7458847988  ./home/bubbles
 20f03343b2b1692d13c2f0bce44b66de97d198649e2213033d58487c66539b54  ./home/bubbles/farmer-claude/logs/cron.log
 99d97fa8fc3059e8c2fdee1fb792bcb1aeb0157f9aaff6f171a0ac75e90985b4  ./home/bubbles/farmer-claude/plants-zoom.jpg
 7233cb9a6fa93520267f5246d3f155c3236f44fc87148c3e7e1ceff7fcad1f9e  ./home/bubbles/farmer-claude/postpulse.jpg
-80431c7bc06a886a508403063487fccab4ecec22217cd563b9fb0bb705440c00  ./home/bubbles/farmer-claude/tools/README.md
+7d98dfed95c93b2820bc68df87572a1c30728483b33d5c15b2aa84a7943a8adf  ./home/bubbles/farmer-claude/tools/README.md
 c016adac069601679a7b711a18054b9528bca514484b807c1e8b38fe38345274  ./home/bubbles/farmer-claude/tools/lamp-sync.sh
 4f18015930f5f50b6e6cb0686b6d5279ef83ff6e7c8a83a143108eea57d02958  ./home/bubbles/farmer-claude/tools/light.py
 1640044517c89664ebf66fb4bf1a08aa401854dca88238510144be4742824ec8  ./home/bubbles/farmer-claude/tools/snap
@@ -1206,6 +1206,6 @@ a013368e53ebf617869861eb90f90af195b469de44034d633835e76d94b119bf  ./root/farmer-
 e925dab4041922afb3c9508eb9c3602056475cb0596f10204dc07d64780692f8  ./var/log/journal/cron.export.log
 7452372eab0c99afece3fc4082db6d13dc7a69d36c30c72ed47ad84697ccff9f  ./var/spool/README.md
 f82c602ec32fe90c672957544fbf2ef1ac538ba635e41989936e0b26e961414e  ./var/spool/cron/README.md
-2b069a94e00847d3c9a6d2b871a22950520efc2ef791c0e03b05428f053aaeba  ./var/spool/cron/crontabs/README.md
+850055f6c745230831c735e19d92d7d7024f6498a0e2d951ff41742de7c27262  ./var/spool/cron/crontabs/README.md
 eed4f7c554b310a75b837631a8840be1869cc9d097636f14a2e82c7458847988  ./var/spool/cron/crontabs/bubbles
 be8509a803d47ff8956ba650d081e026312975b2f51aa8ced3aac4189df5b98b  ./var/spool/cron/crontabs/root

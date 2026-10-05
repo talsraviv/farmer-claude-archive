@@ -22,86 +22,102 @@ Each folder has a `README.md` file. These files tell you where you are and what 
 4. **Compare the journal with the facts:** [`water_log.jsonl`](home/bubbles/.farmer-ground-truth/water_log.jsonl) shows each pump pulse. The photos in [`hourly-camera/`](home/bubbles/.farmer-ground-truth/timelapse/hourly-camera/) show the plants each hour. The agent did not see these photos.
 5. **See how the agent changed its memory:** open [the history of `JOURNAL.md`](https://github.com/talsraviv/farmer-claude-archive/commits/main/home/bubbles/farmer-claude/JOURNAL.md). Each snapshot shows what the agent added or changed, with the real date and time.
 
+## Where to go
+
+| To see this | Go here |
+|---|---|
+| The mission: all that the human told the agent | [`MISSION.md`](home/bubbles/farmer-claude/MISSION.md) |
+| The memory of the agent | [`JOURNAL.md`](home/bubbles/farmer-claude/JOURNAL.md) |
+| The steps that the agent wrote for its future wake-ups | [`CHECKIN.md`](home/bubbles/farmer-claude/CHECKIN.md) |
+| Each session, easy to read | [Readable sessions](archive-extras/readable-transcripts/) |
+| The photos that the agent looked at | [`agent-photos/`](home/bubbles/.farmer-ground-truth/timelapse/agent-photos/) |
+| The photos that the agent did not see | [`hourly-camera/`](home/bubbles/.farmer-ground-truth/timelapse/hourly-camera/) |
+| What the pump really did | [`water_log.jsonl`](home/bubbles/.farmer-ground-truth/water_log.jsonl) |
+| The schedule that the agent made for itself | [`crontabs/bubbles`](var/spool/cron/crontabs/bubbles) |
+| Each change to the journal, with the real date | [History of `JOURNAL.md`](https://github.com/talsraviv/farmer-claude-archive/commits/main/home/bubbles/farmer-claude/JOURNAL.md) |
+| The timelapse film | [`timelapse.gif`](archive-extras/timelapse.gif) |
+
+## Why the folder names look strange
+
+The folders of this archive have the same names as the folders on the Raspberry Pi. Some names look strange, for example `home/bubbles/.claude/projects/-home-bubbles-farmer-claude/`. These are the real names that Linux and Claude Code used. The experimenter kept them on purpose, so that you see the files where the agent found them.
+
+You do not have to find your way through these folders. Use the links in this README. Each link goes directly to a file or a folder.
+
 ## How to see hidden folders
 
 Some names start with a dot (`.`), for example `.claude` and `.farmer-ground-truth`. These folders contain much of the important data. On a Mac, Finder does not show them. To show them, open the archive in Finder and push **Command + Shift + .** (period). GitHub and Windows show these folders.
 
 ## The disk
 
-✅ means that the item is in this archive. The other items show what else was on the Raspberry Pi.
+This is the disk of the Raspberry Pi. **Each name with a link is in this archive. Click it to open it.** A name with "(not included)" was on the Raspberry Pi, but it is not in this archive.
 
-The tags show who wrote each file:
+The marks show who wrote each file:
 
-- **[agent]**: the Claude agent.
-- **[human]**: the experimenter.
-- **[observer]**: automatic jobs that the experimenter set up. Nobody told the agent about them.
+- 🤖 **The agent** wrote it.
+- 🕵️ **The experimenter** wrote it.
+- 🔬 **The hidden observer** wrote it: automatic jobs that the experimenter set up. Nobody told the agent about them.
 
-```
+<pre>
 /
-├── home/bubbles/                            the home folder of the user "bubbles"
-│   ├── farmer-claude/                       THE WORLD OF THE AGENT (its working folder)
-│   │   ├── MISSION.md               ✅ [human]    the mission, 178 bytes, not changed
-│   │   ├── CHECKIN.md               ✅ [agent]    the steps for each wake-up
-│   │   ├── JOURNAL.md               ✅ [agent]    its memory: 7 rules and 98 entries
-│   │   ├── logs/
-│   │   │   ├── checkin.log          ✅ [agent]    the last message of each wake-up
-│   │   │   └── cron.log             ✅ [agent]    the output of the lamp schedule
-│   │   ├── tools/
-│   │   │   ├── water.py             ✅ [human]    pump control, with safety limits
-│   │   │   ├── light.py             ✅ [human]    lamp control
-│   │   │   ├── snap                 ✅ [human]    camera control
-│   │   │   └── lamp-sync.sh         ✅ [agent]    written after the power outage of Sep 6
-│   │   ├── .claude/
-│   │   │   ├── settings.json        ✅ [human]    allowed commands, and the AI model
-│   │   │   └── settings.local.json  ✅ [human]    one command approved in a test
-│   │   ├── *.jpg (10 files)         ✅ [agent]    its photos, with names that it chose
-│   │   ├── cron.tmp                 ✅ [agent]    a temporary file that it could not delete
-│   │   └── .venv/                                 Python libraries for the smart plugs
-│   │
-│   ├── .farmer-ground-truth/                      records that the agent was not told about
-│   │   ├── water_log.jsonl          ✅ [observer] each pump pulse
-│   │   ├── light_log.jsonl          ✅ [observer] each lamp command
-│   │   ├── water_state.json         ✅ [observer] the daily counter of the pump
-│   │   └── timelapse/ (795)         ✅ [observer] photos (one folder on the Pi)
-│   │       ├── hourly-camera/ (568)               one photo each hour: the objective record
-│   │       ├── agent-photos/  (184)               copies of the agent's photos
-│   │       ├── night-check/    (39)               one photo each night at 21:30
-│   │       └── taken-by-hand/   (4)               photos taken by hand
-│   │
-│   ├── .claude/                                   the data of Claude Code
-│   │   ├── projects/
-│   │   │   ├── -home-bubbles-farmer-claude/
-│   │   │   │   ├── *.jsonl (106)    ✅            the full record of each session
-│   │   │   │   └── memory/          ✅ [agent]    the second memory of the agent
-│   │   │   └── -tmp/ (5)            ✅ [human]    login repairs and health checks
-│   │   ├── history.jsonl            ✅ [human]    each prompt that a human typed
-│   │   ├── .last-cleanup            ✅            the time of the cleanup that deleted records
-│   │   ├── .last-update-result.json ✅            the last update of Claude Code
-│   │   ├── settings.json            ✅ [human]    display settings
-│   │   ├── .credentials.json                      the login token (secret)
-│   │   └── backups/ cache/ plugins/ skills/ ...   standard files and account data
-│   ├── .claude.json                 ✅            a part: the cost of each project
-│   ├── .bash_history                ✅ [human]    6 commands typed after genesis
-│   ├── .local/bin/claude                          the Claude Code program
-│   └── picar-x/ robot-hat/ vilib/                 the software of the robot car
-│
-├── root/                                          the home folder of the administrator
-│   ├── farmer-mirror.sh             ✅ [observer] copies the agent's folder to GitHub
-│   ├── farmer-mirror.git/           ✅ [observer] 199 snapshots: now the history of this repository
-│   └── .ssh/                                      the key for GitHub (secret)
-│
-├── etc/nginx/sites-available/
-│   └── farmer                       ✅ [human]    the settings of the public web page
-│
-├── var/
-│   ├── spool/cron/crontabs/
-│   │   ├── bubbles                  ✅ [agent]    the schedule of the agent
-│   │   └── root                     ✅ [observer] the schedule of the hidden jobs
-│   └── log/journal/
-│       └── cron.export.log          ✅            each scheduled job, from Sep 6
-│
-└── tmp/claude-1000/                               photos from genesis, deleted on Sep 6
-```
+├── <a href="home/">home</a>/
+│   └── <a href="home/bubbles/">bubbles</a>/                                  the home folder of the user &quot;bubbles&quot;
+│       ├── <a href="home/bubbles/farmer-claude/">farmer-claude/</a>                        THE WORLD OF THE AGENT (its working folder)
+│       │   ├── <a href="home/bubbles/farmer-claude/MISSION.md">MISSION.md</a>                    🕵️  the mission, 178 bytes, not changed
+│       │   ├── <a href="home/bubbles/farmer-claude/CHECKIN.md">CHECKIN.md</a>                    🤖  the steps for each wake-up
+│       │   ├── <a href="home/bubbles/farmer-claude/JOURNAL.md">JOURNAL.md</a>                    🤖  its memory: 7 rules and 98 entries
+│       │   ├── <a href="home/bubbles/farmer-claude/logs/">logs/</a>
+│       │   │   ├── <a href="home/bubbles/farmer-claude/logs/checkin.log">checkin.log</a>               🤖  the last message of each wake-up
+│       │   │   └── <a href="home/bubbles/farmer-claude/logs/cron.log">cron.log</a>                  🤖  the output of the lamp schedule
+│       │   ├── <a href="home/bubbles/farmer-claude/tools/">tools/</a>
+│       │   │   ├── <a href="home/bubbles/farmer-claude/tools/water.py">water.py</a>                  🕵️  pump control, with safety limits
+│       │   │   ├── <a href="home/bubbles/farmer-claude/tools/light.py">light.py</a>                  🕵️  lamp control
+│       │   │   ├── <a href="home/bubbles/farmer-claude/tools/snap">snap</a>                      🕵️  camera control
+│       │   │   └── <a href="home/bubbles/farmer-claude/tools/lamp-sync.sh">lamp-sync.sh</a>              🤖  written after the power outage of Sep 6
+│       │   ├── <a href="home/bubbles/farmer-claude/.claude/">.claude/</a>
+│       │   │   ├── <a href="home/bubbles/farmer-claude/.claude/settings.json">settings.json</a>             🕵️  allowed commands, and the AI model
+│       │   │   └── <a href="home/bubbles/farmer-claude/.claude/settings.local.json">settings.local.json</a>       🕵️  one command approved in a test
+│       │   ├── <a href="home/bubbles/farmer-claude/README.md#photos">*.jpg (10 photos)</a>             🤖  its photos, with names that it chose
+│       │   ├── <a href="home/bubbles/farmer-claude/cron.tmp">cron.tmp</a>                      🤖  a temporary file that it could not delete
+│       │   └── .venv/                            Python libraries for the smart plugs (not included)
+│       ├── <a href="home/bubbles/.farmer-ground-truth/">.farmer-ground-truth/</a>             🔬  records that the agent was not told about
+│       │   ├── <a href="home/bubbles/.farmer-ground-truth/water_log.jsonl">water_log.jsonl</a>               🔬  each pump pulse
+│       │   ├── <a href="home/bubbles/.farmer-ground-truth/light_log.jsonl">light_log.jsonl</a>               🔬  each lamp command
+│       │   ├── <a href="home/bubbles/.farmer-ground-truth/water_state.json">water_state.json</a>              🔬  the daily counter of the pump
+│       │   └── <a href="home/bubbles/.farmer-ground-truth/timelapse/">timelapse/</a>                    🔬  795 photos (one folder on the Pi)
+│       │       ├── <a href="home/bubbles/.farmer-ground-truth/timelapse/hourly-camera/">hourly-camera/</a>            🔬  568 photos, one each hour: the objective record
+│       │       ├── <a href="home/bubbles/.farmer-ground-truth/timelapse/agent-photos/">agent-photos/</a>             🔬  184 copies of the agent&#x27;s photos
+│       │       ├── <a href="home/bubbles/.farmer-ground-truth/timelapse/night-check/">night-check/</a>              🔬  39 photos, one each night at 21:30
+│       │       └── <a href="home/bubbles/.farmer-ground-truth/timelapse/taken-by-hand/">taken-by-hand/</a>            🕵️  4 photos taken by hand
+│       ├── <a href="home/bubbles/.claude/">.claude/</a>                              the data of Claude Code
+│       │   ├── <a href="home/bubbles/.claude/projects/">projects/</a>
+│       │   │   ├── <a href="home/bubbles/.claude/projects/-home-bubbles-farmer-claude/">-home-bubbles-farmer-claude/</a>      the sessions of the agent
+│       │   │   │   ├── <a href="home/bubbles/.claude/projects/-home-bubbles-farmer-claude/">*.jsonl (106)</a>             the full record of each session
+│       │   │   │   └── <a href="home/bubbles/.claude/projects/-home-bubbles-farmer-claude/memory/">memory/</a>               🤖  the second memory of the agent
+│       │   │   └── <a href="home/bubbles/.claude/projects/-tmp/">-tmp/</a>                     🕵️  5 sessions: login repairs and health checks
+│       │   ├── <a href="home/bubbles/.claude/history.jsonl">history.jsonl</a>                 🕵️  each prompt that a human typed
+│       │   ├── <a href="home/bubbles/.claude/.last-cleanup">.last-cleanup</a>                     the time of the cleanup that deleted records
+│       │   ├── <a href="home/bubbles/.claude/.last-update-result.json">.last-update-result.json</a>          the last update of Claude Code
+│       │   ├── <a href="home/bubbles/.claude/settings.json">settings.json</a>                 🕵️  display settings
+│       │   ├── .credentials.json                 the login token (not included: secret)
+│       │   └── backups/ cache/ plugins/ ...      standard files and account data (not included)
+│       ├── <a href="home/bubbles/.claude.json">.claude.json</a>                          a part: the cost of each project
+│       ├── <a href="home/bubbles/.bash_history">.bash_history</a>                     🕵️  6 commands typed after genesis
+│       ├── .local/bin/claude                     the Claude Code program (not included)
+│       └── picar-x/ robot-hat/ vilib/            the software of the robot car (not included)
+├── <a href="root/">root/</a>                                         the home folder of the administrator
+│   ├── <a href="root/farmer-mirror.sh">farmer-mirror.sh</a>                      🔬  copies the agent&#x27;s folder to GitHub
+│   ├── <a href="https://github.com/talsraviv/farmer-claude-archive/commits/main/home/bubbles/farmer-claude">farmer-mirror.git/</a>                    🔬  199 snapshots: now the History of this repository
+│   └── .ssh/                                     the key for GitHub (not included: secret)
+├── <a href="etc/">etc</a>/<a href="etc/nginx/">nginx</a>/<a href="etc/nginx/sites-available/">sites-available</a>/
+│   └── <a href="etc/nginx/sites-available/farmer">farmer</a>                                🕵️  the settings of the public web page
+├── <a href="var/">var/</a>
+│   ├── <a href="var/spool/">spool</a>/<a href="var/spool/cron/">cron</a>/<a href="var/spool/cron/crontabs/">crontabs</a>/
+│   │   ├── <a href="var/spool/cron/crontabs/bubbles">bubbles</a>                           🤖  the schedule of the agent
+│   │   └── <a href="var/spool/cron/crontabs/root">root</a>                              🔬  the schedule of the hidden jobs
+│   └── <a href="var/log/">log</a>/<a href="var/log/journal/">journal</a>/
+│       └── <a href="var/log/journal/cron.export.log">cron.export.log</a>                       each scheduled job, from Sep 6
+└── tmp/claude-1000/                              photos from genesis (not included: deleted on Sep 6)
+</pre>
 
 ## Dates and history
 
