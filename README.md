@@ -1,6 +1,6 @@
 # Farmer Claude: the Raspberry Pi archive
 
-Read the story: [blog post link (placeholder)](https://example.com/TODO)
+Read the story: [talraviv.co](https://talraviv.co)
 
 <img src="archive-extras/timelapse.gif" width="600" alt="Timelapse of the microgreens from Aug 25 to Oct 4">
 
