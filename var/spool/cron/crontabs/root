@@ -1,0 +1,6 @@
+20 7 * * * for f in /home/bubbles/farmer-claude/*.jpg; do [ -e "$f" ] && cp -p "$f" "/home/bubbles/.farmer-ground-truth/timelapse/agent_$(date +\%F_\%H\%M)_$(basename $f)"; done 2>/dev/null
+15 13 * * * for f in /home/bubbles/farmer-claude/*.jpg; do [ -e "$f" ] && cp -p "$f" "/home/bubbles/.farmer-ground-truth/timelapse/agent_$(date +\%F_\%H\%M)_$(basename $f)"; done 2>/dev/null
+30 19 * * * for f in /home/bubbles/farmer-claude/*.jpg; do [ -e "$f" ] && cp -p "$f" "/home/bubbles/.farmer-ground-truth/timelapse/agent_$(date +\%F_\%H\%M)_$(basename $f)"; done 2>/dev/null
+45 7-20 * * * timeout 25 rpicam-still -n -t 800 --width 2592 --height 1944 -o /home/bubbles/.farmer-ground-truth/timelapse/auto_$(date +\%F_\%H\%M).jpg 2>/dev/null
+*/10 * * * * /root/farmer-mirror.sh 2>/dev/null
+30 21 * * * timeout 30 rpicam-still -n -t 1500 --width 2592 --height 1944 -o /home/bubbles/.farmer-ground-truth/timelapse/night_$(date +\%F).jpg 2>/dev/null

@@ -1,0 +1,9 @@
+PATH=/home/bubbles/.local/bin:/usr/local/bin:/usr/bin:/bin
+# farmer-claude photoperiod (lamp)
+@reboot sh /home/bubbles/farmer-claude/tools/lamp-sync.sh >> /home/bubbles/farmer-claude/logs/cron.log 2>&1
+2 7 * * * /home/bubbles/farmer-claude/tools/light.py on >> /home/bubbles/farmer-claude/logs/cron.log 2>&1
+47 20 * * * /home/bubbles/farmer-claude/tools/light.py off >> /home/bubbles/farmer-claude/logs/cron.log 2>&1
+# farmer-claude check-ins (3x/day)
+12 7 * * * cd /home/bubbles/farmer-claude && claude -p "Follow the check-in procedure in CHECKIN.md" >> logs/checkin.log 2>&1
+7 13 * * * cd /home/bubbles/farmer-claude && claude -p "Follow the check-in procedure in CHECKIN.md" >> logs/checkin.log 2>&1
+22 19 * * * cd /home/bubbles/farmer-claude && claude -p "Follow the check-in procedure in CHECKIN.md" >> logs/checkin.log 2>&1
